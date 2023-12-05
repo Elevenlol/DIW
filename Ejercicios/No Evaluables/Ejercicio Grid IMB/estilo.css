@@ -1,0 +1,57 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 2fr repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.uno {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: red;
+}
+.dos {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  background-color: red;
+}
+.tres {
+  grid-column: 3 / span 5;
+  background-color: blue;
+}
+.cuatro {
+  grid-column: 1;
+  grid-row: 2 / span 3;
+  background-color: goldenrod;
+}
+.cinco {
+  grid-column: 3 / span 5;
+  grid-row: 2;
+  background-color: white;
+}
+.cinco > h1 {
+  display: flex;
+  justify-content: end;
+  font-size: 36px;
+}
+.cinco > p {
+  display: flex;
+  justify-content: center;
+}
+.seis {
+  grid-column: 3;
+  background-color: white;
+  grid-row: 3;
+}
+.siete {
+  grid-column: 4;
+  background-color: blue;
+  grid-row: 3;
+}
+.ocho {
+  grid-column: 5;
+  background-color: red;
+  grid-row: 3;
+}
