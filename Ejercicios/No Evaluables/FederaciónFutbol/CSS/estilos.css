@@ -1,0 +1,31 @@
+nav {
+  background-color: red;
+  color: yellow;
+  display: flex;
+}
+nav img {
+  align-self: flex-start;
+}
+nav h1 {
+  align-self: center;
+}
+
+.convocados {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.convocados .card__chicos {
+  background-color: aliceblue;
+}
+.convocados .card__chicas {
+  background-color: pink;
+}
+
+.convocados .card, .convocados .card__chicos, .convocados .card__chicas {
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
