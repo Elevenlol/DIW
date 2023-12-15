@@ -1,0 +1,17 @@
+@import "./colores";
+@import "./fuentes";
+@import "./card";
+
+h1{
+    @include titulos(40px);
+
+}
+h2{
+    @include titulos(32px);
+}
+h3{
+    @include titulos(24px);
+}
+p{
+    @include texto();
+}
