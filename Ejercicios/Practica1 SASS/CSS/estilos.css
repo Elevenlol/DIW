@@ -1,17 +1,32 @@
-/* Error: Expected identifier.
- *   ,
- * 6 |     @include
- *   |             ^
- *   '
- *   SCSS\estilos.scss 6:13  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a   \2577 \a 6 \2502      @include\d\a   \2502              ^\a   \2575 \a   SCSS\\estilos.scss 6:13  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+nav {
+  background-color: #044870;
 }
+img {
+  max-width: 200px;
+}
+
+h1 {
+  /*Con el include llamamos al mixin*/
+  /*Propiedades comunes de los titulos font-family....*/
+  font-family: "Imbue", serif;
+}
+
+h2 {
+  /*Propiedades comunes de los titulos font-family....*/
+  font-family: "Imbue", serif;
+}
+
+h3 {
+  /*Propiedades comunes de los titulos font-family....*/
+  font-family: "Imbue", serif;
+}
+
+p {
+  /*Propiedades textos color etc etc*/
+  font-family: "Roboto", sans-serif;
+  font-size: 14;
+}
+
+/*# sourceMappingURL=estilos.css.map */

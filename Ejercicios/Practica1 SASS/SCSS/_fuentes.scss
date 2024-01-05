@@ -1,8 +1,13 @@
-@mixin titulos($tamaño){
-    /*Propiedades comunes de los titulos font-family....*/
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+@mixin titulos($tamaño) {
+  /*Propiedades comunes de los titulos font-family....*/
+  font-family: "Imbue", serif;
 }
-@mixin texto(){
-    /*Propiedades textos color etc etc*/
-    font-size: 14;
+@mixin texto() {
+  /*Propiedades textos color etc etc*/
+  font-family: "Roboto", sans-serif;
+  font-size: 14;
 }
+

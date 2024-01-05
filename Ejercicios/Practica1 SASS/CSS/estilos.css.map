@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["../SCSS/_fuentes.scss","../SCSS/_nav.scss","../SCSS/_colores.scss","../SCSS/_imagen.scss","../SCSS/estilos.scss"],"names":[],"mappings":"AAAQ;AACA;ACAR;EACI,kBCDc;;ACDlB;EACI;;;ACKJ;AACI;AJHF;EACA;;;AIKF;AJNE;EACA;;;AIQF;AJTE;EACA;;;AIWF;AJRE;EACA;EACA","file":"estilos.css"}
