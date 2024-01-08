@@ -1,32 +1,255 @@
 @import url("https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-nav {
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*CARD DE MAPA*/
+.cardContainer .card {
+  background-color: #0d6aa1;
+  padding: 3%;
+  border-radius: 5%;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.cardContainer .card .cardHeader iframe {
+  border-radius: 5%;
+  width: 40em;
+  height: 20em;
+  border: 0;
+}
+.cardContainer .card .cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer .card {
+    width: 100%;
+  }
+  .cardContainer .card .cardHeader iframe {
+    border-radius: 5%;
+    width: 100%;
+    height: 10em;
+    border: 0;
+  }
+  .cardContainer .card .cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #044870;
 }
-img {
-  max-width: 200px;
+.navBar section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.navBar section img {
+  width: 10em;
+}
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+.navBar ul li {
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navBar section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar section img {
+    max-width: 100%;
+  }
+  .navBar ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar ul li {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+}
+:root {
+  --bg1: url("https://images.pexels.com/photos/4997799/pexels-photo-4997799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --bg2: url("https://images.pexels.com/photos/131897/pexels-photo-131897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --bg3: url("https://images.pexels.com/photos/191037/pexels-photo-191037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --bg4: url("https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg");
+  --bg5: url("https://images.pexels.com/photos/4997792/pexels-photo-4997792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.galeria {
+  width: 100%;
+}
+.galeria .box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1em;
+  width: 100%;
+  margin-bottom: 3%;
+}
+.galeria .box-container .box {
+  width: 30em;
+  height: 35em;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: width 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.galeria .box-container .box:nth-child(1) {
+  background: var(--bg1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 200%;
+}
+.galeria .box-container .box:nth-child(2) {
+  background: var(--bg2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 200%;
+}
+.galeria .box-container .box:nth-child(3) {
+  background: var(--bg3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 200%;
+}
+.galeria .box-container .box:nth-child(4) {
+  background: var(--bg4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 200%;
+}
+.galeria .box-container .box:nth-child(5) {
+  background: var(--bg5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 200%;
+}
+.galeria .box-container .box .overlay {
+  opacity: 0;
+}
+.galeria .box-container .box.closed {
+  width: 5%;
+}
+.galeria .box-container .box.closed .overlay {
+  opacity: 1;
+}
+.galeria .box-container .box.expanded {
+  width: 85%;
+}
+.galeria .overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
+@media screen and (max-width: 768px) {
+  .galeria .box-container {
+    height: 15em;
+    margin-bottom: 3%;
+  }
+  .galeria .box-container .box {
+    height: 15em;
+    width: 100%;
+    max-width: none;
+  }
 }
 
 h1 {
   /*Con el include llamamos al mixin*/
   /*Propiedades comunes de los titulos font-family....*/
   font-family: "Imbue", serif;
+  font-size: 40px;
+  margin: 0;
+  color: white;
 }
 
 h2 {
   /*Propiedades comunes de los titulos font-family....*/
   font-family: "Imbue", serif;
+  font-size: 32px;
+  margin: 0;
+  color: white;
 }
 
 h3 {
   /*Propiedades comunes de los titulos font-family....*/
   font-family: "Imbue", serif;
+  font-size: 24px;
+  margin: 0;
+  color: white;
 }
 
 p {
   /*Propiedades textos color etc etc*/
   font-family: "Roboto", sans-serif;
   font-size: 14;
+}
+
+a {
+  /*Propiedades comunes de los titulos font-family....*/
+  font-family: "Imbue", serif;
+  font-size: 32px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+  color: #fd8e07;
+  background-color: #044870;
+}
+a:hover {
+  background-color: #065482;
+}
+a .icono {
+  margin-right: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

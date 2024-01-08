@@ -1,27 +1,58 @@
+@use "./colores";
+@use "./fuentes";
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-primary-0;
 
-@import "colores";
-@import "fuentes";
-nav{
-    background-color: $color-primary-0;
-    img{
-        border-radius: 5%;
-        max-width: 40%;
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      width: 10em;
     }
-    ul{
-        text-align: center;
-        list-style-type: none;
-        list-style-type: none;
-        margin: 0;
-        padding: 15px;
-        li{
-            display: inline;
-            a{
-                text-decoration: none;
-                padding: 14px;
-                &:hover {
-                  background-color: $color-primary-1;
-                }
-            }
-        }
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    li {
+      display: inline;
     }
+  }
+
+}  // Media query para dispositivos móviles
+@media screen and (max-width: 768px) {
+  .navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    section {
+      display: flex;
+      flex-direction: column;
+      text-align: center; 
+      img {
+        max-width: 100%; // Ajusta según tus necesidades para dispositivos móviles
+      }
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      li{
+        display: flex;
+        flex-direction: row;
+        text-align: center; 
+      }
+    }
+  }
+
 }

@@ -3,17 +3,33 @@
 @import "./card";
 @import "./nav";
 @import "./imagen";
+@import "./botones";
 
-h1{
-    /*Con el include llamamos al mixin*/
-    @include titulos(40px);
+h1 {
+  /*Con el include llamamos al mixin*/
+  @include titulos(40px);
 }
-h2{
-    @include titulos(32px);
+h2 {
+  @include titulos(32px);
 }
-h3{
-    @include titulos(24px);
+h3 {
+  @include titulos(24px);
 }
-p{
-    @include texto();
+p {
+  @include texto();
 }
+a {
+  @include titulos(32px);
+  @include navBoton();
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+

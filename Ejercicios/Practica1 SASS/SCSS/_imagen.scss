@@ -1,3 +1,79 @@
-img{
-    max-width: 200px;
+:root {
+  --bg1: url("https://images.pexels.com/photos/4997799/pexels-photo-4997799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --bg2: url("https://images.pexels.com/photos/131897/pexels-photo-131897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --bg3: url("https://images.pexels.com/photos/191037/pexels-photo-191037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --bg4: url("https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg");
+  --bg5: url("https://images.pexels.com/photos/4997792/pexels-photo-4997792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
+
+@function get-background($index) {
+  @return var(--bg#{$index});
+}
+.galeria {
+  width: 100%;
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+    width: 100%;
+    margin-bottom: 3%;
+    .box {
+      @for $i from 1 through 5 {
+        &:nth-child(#{$i}) {
+          background: get-background($i);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: auto 200%;
+        }
+      }
+      
+      width: 30em;
+      height: 35em;
+      border-radius: 5%;
+      cursor: pointer;
+      transition: width 0.5s ease-in-out;
+      position: relative;
+      overflow: hidden;
+      .overlay {
+        opacity: 0;
+      }
+
+      &.closed {
+        width: 5%;
+        .overlay {
+          opacity: 1;
+        }
+      }
+      &.expanded {
+        width: 85%;
+      }
+    }
+  }
+  .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  }
+  @media screen and (max-width: 768px) {
+    .box-container{
+      height: 15em;
+      .box {
+        height: 15em;
+        width: 100%;
+        max-width: none; 
+      }
+      margin-bottom: 3%;
+    }
+
+  }
+}
+
+

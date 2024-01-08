@@ -4,6 +4,9 @@
 @mixin titulos($tamaño) {
   /*Propiedades comunes de los titulos font-family....*/
   font-family: "Imbue", serif;
+  font-size: $tamaño;
+  margin: 0;
+  color: white;
 }
 @mixin texto() {
   /*Propiedades textos color etc etc*/

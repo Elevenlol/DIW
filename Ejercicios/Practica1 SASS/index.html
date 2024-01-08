@@ -11,65 +11,121 @@
 <body>
     <header>
         <nav class="navBar">
-            <img src="./img/logo.png" class="logo" id="logo">
-            <ul class="navBotones">
-                <a href="#" class="navEnlace">
-                    <li>Inicio</li>
-                </a>
-                <a href="#" class="navEnlace">
-                    <li>Reserva</li>
-                </a>
-                <a href="#" class="navEnlace">
-                    <li>Menús</li>
-                </a>
-                <li class="navEnlace">
-                    <a href="#" class="navMenu">Menú</a>
-                    <ul class="navMenuDesplegable">
-                        <a href="#">
-                            <li>Opción 1</li>
-                        </a>
-                        <a href="#">
-                            <li>Opción 2</li>
-                        </a>
-                        <a href="#">
-                            <li>Opción 3</li>
-                        </a>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <!-- Galería de imágenes interactiva -->
-            <section class="galeria" id="galeria">
-                <img src="./img/comida1.jpg" alt="Imagen 1">
-                <img src="./img/comida2.jpg" alt="Imagen 2">
-                <img src="./img/comida3.jpg" alt="Imagen 3">
-                <!-- Agrega más imágenes según sea necesario -->
+            <section class="seccionLogo">
+                <img src="./img/logo.png" class="logo" id="logo">
+                <h1 class="titulo">Restaurante Eleven</h1>
             </section>
-        </main>
-
+            <section>
+                <ul class="navBotones">
+                    <li class="navEnlace">
+                        <a href="" class=""><span class="icono">🏠</span>Inicio</a>
+                        <a href="" class="navBoton"><span class="icono">📋</span>Reserva</a>
+                        <a href="" class="navBoton"><span class="icono">📅</span>Menús</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
     </header>
+    <main class="contenedor">
+        <h2>Conoce nuestro restaurante</h2>
+        <!--
+        Galería de imágenes interactiva 
+        Plantilla utilizada y modificada a gusto
+        https://codepen.io/jsemedo/pen/MWLZwVr
+        -->
+        <section class="galeria" id="galeria">
+            <article class="box-container">
+                <div class="box">
+                    <div class="overlay"></div>
+                </div>
+                <div class="box">
+                    <div class="overlay"></div>
+                </div>
+                <div class="box">
+                    <div class="overlay"></div>
+                </div>
+                <div class="box">
+                    <div class="overlay"></div>
+                </div>
+                <div class="box">
+                    <div class="overlay"></div>
+                </div>
+            </article> <!-- Agrega más imágenes según sea necesario -->
+        </section>
+        <section class="cardContainer">
+            <article class="card">
+                <header class="cardHeader">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.2945138328002!2d-4.72844922787746!3d41.65189480189276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1704461648902!5m2!1ses!2ses"
+                        class="mapa">
+                    </iframe>
+                </header>
+                <main class="cardBody">
+                    <h2 class="cardTitle">
+                        Donde encontrarnos.
+                    </h2>
+                    <p class="cardText">
+                        Podras encontrarnos en la plaza mayor de valladolid.
+                    </p><br>
+                    <a href="reservas.html">Reservar</a>
+                </main>
+            </article>
+        </section>
+    </main>
+
     <script>
-        // Código JavaScript para la galería de imágenes
-        const gallery = document.getElementById('galeria');
-        let currentIndex = 0;
+        const boxes = document.querySelectorAll(".box");
+        let activeIndex = 2;
+        let isTransitioning = false;
 
-        function showImage(index) {
-            gallery.style.transform = `translateX(${-index * 100}%)`;
+        function updateCurrentImg() {
+            isTransitioning = true;
+
+            boxes.forEach((box, index) => {
+                const isActive = index === activeIndex;
+                box.classList.toggle("expanded", isActive);
+                box.classList.toggle("closed", !isActive);
+            });
+
+            setTimeout(() => {
+                isTransitioning = false;
+            }, 500);
         }
 
-        function nextImage() {
-            currentIndex = (currentIndex + 1) % gallery.children.length;
-            showImage(currentIndex);
+        function handleArrowKey(event) {
+            if (isTransitioning) {
+                return;
+            }
+
+            if (event.key === "ArrowRight") {
+                activeIndex = (activeIndex + 1) % boxes.length;
+            } else if (event.key === "ArrowLeft") {
+                activeIndex = (activeIndex - 1 + boxes.length) % boxes.length;
+            }
+
+            updateCurrentImg();
         }
 
-        function prevImage() {
-            currentIndex = (currentIndex - 1 + gallery.children.length) % gallery.children.length;
-            showImage(currentIndex);
+        function handleBoxClick(index) {
+            if (isTransitioning) {
+                return;
+            }
+            if (index === activeIndex && boxes[index].classList.contains("expanded")) {
+                boxes.forEach((box) => box.classList.remove("closed", "expanded"));
+                activeIndex = 0;
+            } else {
+                activeIndex = index;
+                updateCurrentImg();
+            }
         }
 
-        setInterval(nextImage, 3000); // Cambiar automáticamente cada 3 segundos (puedes ajustar el tiempo según tus necesidades)
+        document.addEventListener("keydown", handleArrowKey);
 
+        updateCurrentImg();
+
+        boxes.forEach((box, index) => {
+            box.addEventListener("click", () => handleBoxClick(index));
+        });
     </script>
 </body>
 
