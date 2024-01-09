@@ -1,17 +1,17 @@
-@use "./colores";
-@use "./fuentes";
+@import "./colores";
+@import "./fuentes";
+@import "./variables";
 .navBar {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $color-primary-0;
-
   section {
     display: flex;
     align-items: center;
     flex-direction: column;
     img {
-      width: 10em;
+      width: 9em;
     }
   }
   ul {
@@ -26,10 +26,9 @@
       display: inline;
     }
   }
-
-}  // Media query para dispositivos móviles
+} // Media query para dispositivos móviles
 @media screen and (max-width: 768px) {
-  .navBar{
+  .navBar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +37,7 @@
     section {
       display: flex;
       flex-direction: column;
-      text-align: center; 
+      text-align: center;
       img {
         max-width: 100%; // Ajusta según tus necesidades para dispositivos móviles
       }
@@ -47,12 +46,11 @@
       display: flex;
       flex-direction: column;
       text-align: center;
-      li{
+      li {
         display: flex;
         flex-direction: row;
-        text-align: center; 
+        text-align: center;
       }
     }
   }
-
 }

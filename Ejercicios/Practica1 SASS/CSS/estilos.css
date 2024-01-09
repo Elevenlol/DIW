@@ -23,13 +23,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
 .contenedorMenus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a09e9e;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  margin-bottom: 4%;
 }
 
 .cardMenu {
@@ -40,8 +43,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
-  margin: 5%;
-  padding-right: 2%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .cardMenu:hover {
   transform: scale(1.05);
@@ -50,8 +54,6 @@
   padding: 3%;
   grid-column: 1;
   grid-row: 1;
-  border-radius: 4%;
-  border: 3px solid black;
 }
 .cardMenu .divPlatos header {
   font-size: 1.5em;
@@ -59,24 +61,35 @@
   color: #fd8e07;
   background-color: #023654;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .cardMenu .divPlatos .primeros,
 .cardMenu .divPlatos .segundos,
 .cardMenu .divPlatos .postres {
-  display: flex;
-  flex-direction: column;
   background-color: #0d6aa1;
 }
+.cardMenu .divPlatos .primeros p,
+.cardMenu .divPlatos .segundos p,
+.cardMenu .divPlatos .postres p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .cardMenu figure {
-  margin-top: 3%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-column: 2;
   grid-row: 1;
+  background-color: #012337;
+  color: white;
 }
 .cardMenu figure img {
-  width: 100%;
+  width: 60%;
   height: auto;
-  border-radius: 5%;
+  border-radius: 15px;
 }
 .cardMenu figure figcaption {
   text-align: center;
@@ -98,6 +111,74 @@
     flex-direction: column;
     align-items: center;
   }
+  .cardUbicacion .card .cardHeader iframe {
+    border-radius: 5%;
+    width: 20em;
+    height: 15em;
+    border: 0;
+  }
+  .cardUbicacion .card .cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardMenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 7%;
+  }
+  .cardMenu:hover {
+    transform: scale(1.05);
+  }
+  .cardMenu .divPlatos {
+    padding: 3%;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .cardMenu .divPlatos header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fd8e07;
+    background-color: #023654;
+    display: flex;
+    justify-content: center;
+  }
+  .cardMenu .divPlatos .primeros,
+  .cardMenu .divPlatos .segundos,
+  .cardMenu .divPlatos .postres {
+    background-color: #0d6aa1;
+  }
+  .cardMenu .divPlatos .primeros p,
+  .cardMenu .divPlatos .segundos p,
+  .cardMenu .divPlatos .postres p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardMenu figure {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .cardMenu figure img {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .cardMenu figure figcaption {
+    text-align: center;
+    margin-top: 2%;
+  }
 }
 .navBar {
   display: flex;
@@ -111,7 +192,7 @@
   flex-direction: column;
 }
 .navBar section img {
-  width: 10em;
+  width: 9em;
 }
 .navBar ul {
   display: flex;
@@ -161,7 +242,12 @@
 }
 
 .galeria {
-  width: 100%;
+  width: 80%;
+  background-color: white;
+  padding: 3%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
 }
 .galeria .box-container {
   display: flex;
@@ -170,9 +256,8 @@
   justify-content: center;
   justify-self: center;
   column-gap: 1em;
-  width: 70%;
+  width: 100%;
   margin-bottom: 3%;
-  margin-left: 15%;
 }
 .galeria .box-container .box {
   width: 25em;
@@ -305,10 +390,12 @@ a .icono {
   padding: 0;
 }
 
-.contenedor {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=estilos.css.map */

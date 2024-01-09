@@ -5,6 +5,7 @@
 @import "./imagen";
 @import "./botones";
 @import "./variables";
+@import"./mixin";
 
 h1 {
   @include titulos(40px);
@@ -20,14 +21,12 @@ p {
 }
 a {
   @include titulos(32px);
-  @include navBoton();
+  @include navBoton;
 }
 * {
   margin: 0;
   padding: 0;
 }
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+main{
+  @include fondo;
 }
