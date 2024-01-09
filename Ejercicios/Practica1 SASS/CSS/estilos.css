@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*CARD DE MAPA*/
 @import url("https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/*CARD DE MAPA*/
-.cardContainer .card {
+.cardUbicacion .card {
   background-color: #0d6aa1;
   padding: 3%;
   border-radius: 5%;
@@ -13,16 +13,74 @@
   align-items: center;
   margin-bottom: 3%;
 }
-.cardContainer .card .cardHeader iframe {
+.cardUbicacion .card .cardHeader iframe {
   border-radius: 5%;
   width: 40em;
   height: 20em;
   border: 0;
 }
-.cardContainer .card .cardBody {
+.cardUbicacion .card .cardBody {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contenedorMenus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a09e9e;
+}
+
+.cardMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  margin: 5%;
+  padding-right: 2%;
+}
+.cardMenu:hover {
+  transform: scale(1.05);
+}
+.cardMenu .divPlatos {
+  padding: 3%;
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 4%;
+  border: 3px solid black;
+}
+.cardMenu .divPlatos header {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fd8e07;
+  background-color: #023654;
+  display: flex;
+  align-items: center;
+}
+.cardMenu .divPlatos .primeros,
+.cardMenu .divPlatos .segundos,
+.cardMenu .divPlatos .postres {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d6aa1;
+}
+.cardMenu figure {
+  margin-top: 3%;
+  grid-column: 2;
+  grid-row: 1;
+}
+.cardMenu figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+.cardMenu figure figcaption {
+  text-align: center;
+  margin-top: 2%;
 }
 
 @media screen and (max-width: 768px) {
@@ -110,13 +168,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  justify-self: center;
   column-gap: 1em;
-  width: 100%;
+  width: 70%;
   margin-bottom: 3%;
+  margin-left: 15%;
 }
 .galeria .box-container .box {
-  width: 30em;
-  height: 35em;
+  width: 25em;
+  height: 25em;
   border-radius: 5%;
   cursor: pointer;
   transition: width 0.5s ease-in-out;
@@ -193,7 +253,6 @@
 }
 
 h1 {
-  /*Con el include llamamos al mixin*/
   /*Propiedades comunes de los titulos font-family....*/
   font-family: "Imbue", serif;
   font-size: 40px;
