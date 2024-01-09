@@ -6,7 +6,7 @@
 @import "./botones";
 
 h1 {
-  /*Con el include llamamos al mixin*/
+
   @include titulos(40px);
 }
 h2 {
