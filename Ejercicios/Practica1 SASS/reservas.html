@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservar mesa restaurante</title>
+    <link rel="icon" type="image/png" href="./img/logo.png">
     <link rel="stylesheet" href="./CSS/estilos.css">
 </head>
 
@@ -29,7 +30,22 @@
     <main class="mainReserva">
         <section class="seccionReserva">
             <article class="cardReserva">
-                
+                <form action="#" method="post">
+                    <h2>Reserva de Mesa</h2>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="telefono">Número de teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                    <label for="fecha">Fecha de la reserva:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                    <label for="hora">Hora de la reserva:</label>
+                    <input type="time" id="hora" name="hora" required>
+                    <label for="num_personas">Número de personas:</label>
+                    <input type="number" id="numPersonas" name="numPersonas" required>
+                    <label for="nReserva">Notas de la reserva:</label>
+                    <textarea id="nReserva" name="nReserva" rows="4"></textarea>
+                    <button type="submit">Enviar Reserva</button>
+                </form>
             </article>
         </section>
     </main>

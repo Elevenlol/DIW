@@ -1,6 +1,7 @@
 @import "./colores";
 @import "./fuentes";
 @import "./variables";
+
 .navBar {
   display: flex;
   justify-content: center;
@@ -26,20 +27,21 @@
       display: inline;
     }
   }
-} // Media query para dispositivos móviles
-@media screen and (max-width: 768px) {
+}
+
+// Media query nav móviles
+@media screen and (max-width: $tamanoTablet) {
   .navBar {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     section {
       display: flex;
       flex-direction: column;
       text-align: center;
       img {
-        max-width: 100%; // Ajusta según tus necesidades para dispositivos móviles
+        max-width: 80%;
       }
     }
     ul {
@@ -48,7 +50,7 @@
       text-align: center;
       li {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         text-align: center;
       }
     }

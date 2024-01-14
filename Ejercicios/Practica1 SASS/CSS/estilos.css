@@ -26,6 +26,7 @@
   flex-direction: column;
 }
 
+/*CARD DE MENU*/
 .cardMenu {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -87,11 +88,59 @@
   margin-top: 2%;
 }
 
+/*CARD DE RESERVA*/
 .cardReserva {
+  margin-top: 5%;
+  background-color: #a09e9e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cardReserva form {
+  width: 100%;
+  padding: 3%;
+  border: 1px solid #000000;
+  border-radius: 15px;
   background-color: #a09e9e;
 }
+.cardReserva form h2 {
+  color: black;
+}
+.cardReserva form label,
+.cardReserva form input,
+.cardReserva form textarea,
+.cardReserva form button {
+  display: block;
+  width: 100%;
+  margin-top: 3%;
+}
+.cardReserva form input,
+.cardReserva form textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.cardReserva form textarea {
+  resize: vertical;
+}
+.cardReserva form button[type=submit] {
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0d6aa1;
+  color: #fd8e07;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.cardReserva form button[type=submit]:hover {
+  background-color: #065482;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .cardContainer .card {
     width: 100%;
   }
@@ -202,7 +251,7 @@
   display: inline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .navBar {
     display: flex;
     justify-content: center;
@@ -215,7 +264,7 @@
     text-align: center;
   }
   .navBar section img {
-    max-width: 100%;
+    max-width: 80%;
   }
   .navBar ul {
     display: flex;
@@ -224,7 +273,7 @@
   }
   .navBar ul li {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
   }
 }
@@ -389,8 +438,6 @@ a .icono {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/fondo.png");
-  background-size: cover;
   margin-bottom: 4%;
 }
 
@@ -404,6 +451,13 @@ body {
   background-image: url("../img/fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.seccionReserva {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

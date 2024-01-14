@@ -2,103 +2,156 @@
 @import "./mixin";
 @import "./mixin";
 
-/*CARD DE MAPA*/
-.cardUbicacion {
-  .card {
-    background-color: $color-primary-1;
-    padding: 3%;
-    border-radius: 5%;
-    width: min-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3%;
-    .cardHeader {
-      iframe {
-        border-radius: 5%;
-        width: 40em;
-        height: 20em;
-        border: 0;
-      }
-    }
-    .cardBody {
+  /*CARD DE MAPA*/
+  .cardUbicacion {
+    .card {
+      background-color: $color-primary-1;
+      padding: 3%;
+      border-radius: 5%;
+      width: min-content;
       display: flex;
       flex-direction: column;
       align-items: center;
-      flex-direction: column;
-    }
-  }
-}
-
-.cardMenu {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-
-  &:hover {
-    transform: scale(1.05);
-  }
-
-  .divPlatos {
-    padding: 3%;
-    grid-column: 1;
-    grid-row: 1;
-
-    header {
-      font-size: 1.5em;
-      font-weight: bold;
-      color: $color-complement-1;
-      background-color: $color-primary-3;
-      display: flex;
-      justify-content: center;
-    }
-
-    .primeros,
-    .segundos,
-    .postres {
-      p {
+      margin-bottom: 3%;
+      .cardHeader {
+        iframe {
+          border-radius: 5%;
+          width: 40em;
+          height: 20em;
+          border: 0;
+        }
+      }
+      .cardBody {
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-direction: column;
+      }
+    }
+  }
+  /*CARD DE MENU*/
+  .cardMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .divPlatos {
+      padding: 3%;
+      grid-column: 1;
+      grid-row: 1;
+
+      header {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: $color-complement-1;
+        background-color: $color-primary-3;
+        display: flex;
         justify-content: center;
       }
-      background-color: $color-primary-1;
+
+      .primeros,
+      .segundos,
+      .postres {
+        p {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        background-color: $color-primary-1;
+      }
+    }
+
+    figure {
+      padding: 3%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-column: 2;
+      grid-row: 1;
+      background-color: $color-primary-4;
+      color: white;
+
+      img {
+        width: 60%;
+        height: auto;
+        border-radius: 15px;
+      }
+
+      figcaption {
+        text-align: center;
+        margin-top: 2%;
+      }
     }
   }
-
-  figure {
-    padding: 3%;
+  /*CARD DE RESERVA*/
+  .cardReserva {
+    margin-top: 5%;
+    background-color: $color-complement-secondary-0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    grid-column: 2;
-    grid-row: 1;
-    background-color: $color-primary-4;
-    color: white;
-
-    img {
-      width: 60%;
-      height: auto;
+    width: 100%;
+    
+    form {
+      h2 {
+        color: black;
+      }
+      width: 100%;
+      padding: 3%;
+      border: 1px solid #000000;
       border-radius: 15px;
-    }
+      background-color: $color-complement-secondary-0;
+      label,
+      input,
+      textarea,
+      button {
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+      }
 
-    figcaption {
-      text-align: center;
-      margin-top: 2%;
+      input,
+      textarea {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+
+      button[type="submit"] {
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: $color-primary-1;
+        color: $color-complement-1;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: $color-primary-2;
+        }
+      }
     }
   }
-}
-.cardReserva {
 
-  background-color: $color-complement-secondary-0;
-}
 @media screen and (max-width: $tamanoTablet) {
   .cardContainer {
     .card {
