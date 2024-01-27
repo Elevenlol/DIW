@@ -1,0 +1,19 @@
+@import "./colores";
+@import "./fuentes";
+
+@mixin carousel() {
+  #carouselExampleCaptions {
+    .carousel-item {
+      img {
+        height: 600px;
+      }
+      .carousel-caption {
+        h5,
+        p {
+          color: $color-secundario-c1 !important;
+        }
+        background-color: $color-primario-c2;
+      }
+    }
+  }
+}

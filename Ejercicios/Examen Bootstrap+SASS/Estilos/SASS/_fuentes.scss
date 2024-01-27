@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
+@mixin titulos($tamaño) {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: $tamaño;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+@mixin textoLato() {
+  /*Propiedades textos color etc etc*/
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+@mixin textoLora() {
+  /*Propiedades textos color etc etc*/
+  text-align: center;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+h1 {
+  @include titulos(2.5em);
+}
+h2 {
+  @include titulos(2em);
+}
+h3 {
+  @include titulos(1.5em);
+}
+h5 {
+  @include titulos(1.5em);
+}
+
+.nav-link {
+  @include textoLato();
+}
+p {
+  @include textoLora();
+}
+.dropdown-item {
+  @include textoLora();
+}

@@ -1,0 +1,21 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./card";
+@import "./colores";
+@import "./fuentes";
+@import "./navbar";
+@import "./carousel";
+
+nav {
+  @include nav();
+}
+body {
+  background-color: $color-secundario;
+  color: black;
+}
+#carousel {
+  @include carousel();
+}
+.card {
+  @include cardCiclistas();
+  @include cardTienda();
+}

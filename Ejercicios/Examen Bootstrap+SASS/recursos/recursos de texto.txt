@@ -1,0 +1,44 @@
+Pruebas masculinas
+
+    {fecha: "7 de abril" , nombre: "Marcha las hoces", tipo: "Carretera", ubicacion: "Vegacervera (León)"},
+    {fecha: "20 de abril" , nombre: "Ebro Gold Race", tipo: "Carretera" , ubicacion: "Miranda de Ebro (Burgos)" },
+    {fecha: "27 de abril" , nombre: "Marcha Bajo tietar -Gredos sur", tipo: "BTT" , ubicacion: "Mombeltrán (Ávila)" },
+    {fecha:"25 de mayo" , nombre:"La Icuesta", tipo: "Carretera" , ubicacion:"Espinosa de los monteros" },
+    {fecha:"26 de mayo" , nombre:"Marcha El Terrible", tipo: "carretera" , ubicacion: "Toro (Zamora)" },
+    {fecha:"23 de junio" , nombre: "Memorial Alberto Fernández", tipo: "Carretera" , ubicacion: "Aguilar de Campoo (Palencia)" },
+    {fecha:"06 de julio" , nombre:"Espinosa paraiso ciclista", tipo: "Carretera" , ubicacion:"Espinosa de los monteros (Burgos)" },
+    {fecha:"14 de julio" , nombre:"Ciclo ruta Lagunas de Neila", tipo:"Carretera" , ubicacion:"Quintanar de la Sierra" },
+    {fecha:"11 de agosto" , nombre:"Marcha Pedro Delgado", tipo:"Carretera" , ubicacion:"Segovia" },
+    {fecha:"22 de septiembre" , nombre:"II Vuelta a Segovia Gravel", tipo: "Gravel" , ubicacion:"Segovia" },
+
+Pruebas femeninas
+
+    { fecha: '04 de febrero', nombre: 'GRAN PREMIO BTT GALLEGOS DE ARGAÑÁN', tipo: 'BTT', ubicacion: 'GALLEGOS DE ARGAÑÁN (SALAMANCA)' },
+    { fecha: '04 de febrero', nombre: 'II TROFEO SIEGA VERDE BTT ESCUELAS', tipo: 'BTT', ubicacion: 'VILLAR DE LA YEGUA (SALAMANCA)' },
+    { fecha: '10 de febrero', nombre: 'XVIII TROFEO JOAQUIN MIGUELAÑEZ', tipo: 'BTT', ubicacion: 'CANTIMPALOS (SEGOVIA)' },
+    { fecha: '17 de febrero', nombre: 'VI BTT STREAMBIKE-CIUDAD DE AVILA', tipo: 'BTT', ubicacion: 'AVILA (AVILA)' },
+    { fecha: '18 de febrero', nombre: 'II TROFEO CIUDAD DE ARENAS BTT XCO', tipo: 'BTT XCO', ubicacion: 'ARENAS DE SAN PEDRO (AVILA)' },
+    { fecha: '24 de febrero', nombre: 'V TROFEO FCO MANCEBO BTT', tipo: 'BTT', ubicacion: 'BURGOHONDO (AVILA)' },
+    { fecha: '25 de febrero', nombre: 'I TROFEO AYTO DE RIOFRIO BTT', tipo: 'BTT', ubicacion: 'RIOFRIO (AVILA)' },
+    { fecha: '02 de marzo', nombre: 'GRAN PREMIO INTERNACIONAL CANDELEDA-GREDOS', tipo: 'BTT', ubicacion: 'CANDELEDA (AVILA)' },
+    { fecha: '09 de marzo', nombre: 'XCO VILLA DE GUIJUELO', tipo: 'BTT XCO', ubicacion: 'GUIJUELO (SALAMANCA)' },
+    { fecha: '10 de marzo', nombre: 'GRAN PREMIO CIUDAD DE VALLADOLID BTT XCO', tipo: 'BTT XCO', ubicacion: 'VALLADOLID (VALLADOLID)' },
+    { fecha: '10 de marzo', nombre: 'I TROFEO AYTO FONTIVEROS-MEMORIAL ESTELA DOMINGUEZ', tipo: 'BTT', ubicacion: 'FONTIVEROS (AVILA)' },
+    { fecha: '16 de marzo', nombre: 'IV XCO BTT BEMBIBRE', tipo: 'BTT XCO', ubicacion: 'BEMBIBRE (LEON)' },
+    { fecha: '19 de agosto', nombre: 'XLIII GRAN PREMIO VILLA DE CERVERA', tipo: 'BTT', ubicacion: 'CERVERA DE PISUERGA (PALENCIA)' },
+    { fecha: '23 de septiembre', nombre: 'I TROFEO VADILLO – CHALLENGE SORIA', tipo: 'BTT', ubicacion: 'VADILLO (SORIA)' },
+    { fecha: '23 de septiembre', nombre: 'I TROFEO TALVEILA CRI – CHALLENGE SORIA', tipo: 'BTT', ubicacion: 'TALVEILA (SORIA)' },
+    { fecha: '24 de septiembre', nombre: 'XI CRITERIUM MOISES DUEÑAS', tipo: 'BTT', ubicacion: 'BEJAR (SALAMANCA)' },
+    { fecha: '24 de septiembre', nombre: 'I TROFEO NAVALENO – CHALLANGE SORIA', tipo: 'BTT', ubicacion: 'NAVALENO (SORIA)' }
+
+Histroria de nuestra federación
+La Federación de Ciclismo de Castilla y León es una organización deportiva que se dedica a la promoción y organización de eventos ciclistas en la comunidad autónoma de Castilla y León. La federación fue fundada en el año 1989 y desde entonces ha trabajado para fomentar el ciclismo en la región. La federación organiza una amplia variedad de eventos, incluyendo carreras de carretera, ciclocross, mountain bike y BMX. También ofrece programas de formación y entrenamiento para ciclistas de todas las edades y niveles de habilidad.
+
+Ciclistas famosos
+{nombre:"Pedro Delgado", apodo:"Perico Delgado", biografía:"Nacido en Segovia, Pedro Delgado fue uno de los ciclistas más destacados de los años 80 y 90. Ganó el Tour de Francia en 1988 y fue un destacado escalador."},
+{nombre: "Roberto Heras", apodo:"", biografía:"Roberto Heras, nacido el 21 de febrero de 1974 en Béjar, Salamanca, es un ciclista español que dejó una huella significativa en el mundo del ciclismo. Es reconocido por su habilidad como escalador y por sus éxitos en carreras por etapas. A lo largo de su carrera, Heras logró varias victorias destacadas, siendo su mayor logro la victoria en la Vuelta a España en cuatro ocasiones (2000, 2003, 2004 y 2005). Su estilo agresivo y su destreza en las etapas de montaña le otorgaron una reputación como uno de los mejores ciclistas españoles de su época."},
+{nombre:"Jose María Jiménez", apodo: "El Chava", biografía: "Nacido en el Barraco (Ávila). Fue un escalador talentoso que destacó en los años 90. Ganó etapas en el Giro de Italia y en la Vuelta a España."},
+{nombre: "Ángel Arroyo", apodo: "", biografía:"Otro ciclista de El Barraco, Ángel Arroyo fue un destacado corredor de los años 80. Ganó etapas en el Tour de Francia y la Vuelta a España."}
+
+
+

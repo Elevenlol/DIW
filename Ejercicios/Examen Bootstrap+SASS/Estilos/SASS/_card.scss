@@ -1,0 +1,17 @@
+@import "./colores";
+@import "./fuentes";
+
+@mixin cardTienda() {
+  .cardTienda {
+    background-color: $color-secundario-o1;
+  }
+}
+@mixin cardCiclistas() {
+  .cardCiclistas {
+    background-color: $color-secundario-o1;
+    .card-img {
+      max-width: 100%;
+      max-height: 200px;
+    }
+  }
+}
