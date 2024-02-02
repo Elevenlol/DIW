@@ -4,18 +4,23 @@
 @import "./fuentes";
 @import "./navbar";
 @import "./carousel";
-
+@import "./footer";
+@import "./alert";
+@import "./form";
+* {
+  margin: 0;
+  padding: 0;
+}
 nav {
   @include nav();
 }
 body {
   background-color: $color-secundario;
   color: black;
+  overflow-x: hidden;
 }
 #carousel {
   @include carousel();
 }
-.card {
-  @include cardCiclistas();
-  @include cardTienda();
-}
+
+

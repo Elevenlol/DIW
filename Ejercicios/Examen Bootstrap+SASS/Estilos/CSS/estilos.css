@@ -12,6 +12,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11905,7 +11909,7 @@ h5, .h5 {
 
 p {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
@@ -11913,7 +11917,156 @@ p {
 
 .dropdown-item {
   /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+td {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+th {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+form {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.btn-personalizado {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.cardTienda {
+  background-color: #cdd1de;
+}
+.cardTienda .card-header {
+  background-color: #d6455e !important;
+}
+.cardTienda .card-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.cardTienda .accordion-header {
+  background-color: #d6455e !important;
+}
+.cardTienda button {
+  background-color: #780015;
+  color: #ffffff;
+}
+
+.cardCiclistas {
+  background-color: #a0a6c1 !important;
+}
+.cardCiclistas .card-img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+h1, .h1 {
+  /*Propiedades comunes de los titulos font-family....*/
   text-align: center;
+  font-size: 2.5em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h2, .h2 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h3, .h3 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h5, .h5 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+.nav-link {
+  /*Propiedades textos color etc etc*/
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+p {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.dropdown-item {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+td {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+th {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+form {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.btn-personalizado {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
@@ -11961,7 +12114,7 @@ h5, .h5 {
 
 p {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
@@ -11969,7 +12122,39 @@ p {
 
 .dropdown-item {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+td {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+th {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+form {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.btn-personalizado {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
@@ -12017,7 +12202,7 @@ h5, .h5 {
 
 p {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
@@ -12025,10 +12210,59 @@ p {
 
 .dropdown-item {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
+}
+
+td {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+th {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+form {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.btn-personalizado {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #a0a6c1;
+  width: 100%;
+  margin-top: 5%;
+  padding: 1%;
+}
+footer img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 5%;
 }
 
 h1, .h1 {
@@ -12073,7 +12307,7 @@ h5, .h5 {
 
 p {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
@@ -12081,14 +12315,166 @@ p {
 
 .dropdown-item {
   /*Propiedades textos color etc etc*/
-  text-align: center;
+  text-align: left;
   font-size: 1em;
   font-family: "Lora", serif;
   color: black;
+}
+
+td {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+th {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+form {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.btn-personalizado {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+#aviso {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #c41e3a;
+  color: #ffffff;
+}
+
+h1, .h1 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h2, .h2 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h3, .h3 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+h5, .h5 {
+  /*Propiedades comunes de los titulos font-family....*/
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+.nav-link {
+  /*Propiedades textos color etc etc*/
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+p {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.dropdown-item {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+td {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+th {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+form {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.btn-personalizado {
+  /*Propiedades textos color etc etc*/
+  text-align: left;
+  font-size: 1em;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.form-control:focus,
+.form-check-input:focus {
+  border-color: #9d0e27;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.btn-personalizado {
+  background-color: #780015 !important;
+  color: #ffffff;
+}
+.btn-personalizado:hover {
+  background-color: #eeeff3 !important;
+  border-color: #9d0e27 !important;
+  color: #9d0e27;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   background-color: #c41e3a;
+  width: 100%;
 }
 nav .navbar-brand {
   margin-left: 4%;
@@ -12130,6 +12516,10 @@ nav div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff !important;
   color: #c41e3a;
 }
+nav div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item.active {
+  color: black;
+  background-color: #ffffff !important;
+}
 nav div .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle.show {
   color: black !important;
   background-color: #ffffff;
@@ -12138,10 +12528,11 @@ nav div .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle.show {
 body {
   background-color: #eeeff3;
   color: black;
+  overflow-x: hidden;
 }
 
 #carousel #carouselExampleCaptions .carousel-item img {
-  height: 600px;
+  max-height: 600px;
 }
 #carousel #carouselExampleCaptions .carousel-item .carousel-caption {
   background-color: #f07288;
@@ -12149,17 +12540,7 @@ body {
 #carousel #carouselExampleCaptions .carousel-item .carousel-caption h5, #carousel #carouselExampleCaptions .carousel-item .carousel-caption .h5,
 #carousel #carouselExampleCaptions .carousel-item .carousel-caption p {
   color: #ffffff !important;
-}
-
-.card .cardCiclistas {
-  background-color: #cdd1de;
-}
-.card .cardCiclistas .card-img {
-  max-width: 100%;
-  max-height: 200px;
-}
-.card .cardTienda {
-  background-color: #cdd1de;
+  text-align: center !important;
 }
 
 /*# sourceMappingURL=estilos.css.map */

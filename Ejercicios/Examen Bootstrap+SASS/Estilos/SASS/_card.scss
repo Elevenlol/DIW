@@ -1,17 +1,30 @@
 @import "./colores";
 @import "./fuentes";
 
-@mixin cardTienda() {
-  .cardTienda {
-    background-color: $color-secundario-o1;
+.cardTienda {
+  background-color: $color-secundario-o1;
+  .card-header {
+    background-color: $color-primario-c1 !important;
+  }
+  .card-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .accordion-header {
+    background-color: $color-primario-c1 !important;
+  }
+  button {
+    background-color: $color-primario-o2;
+    color: $color-secundario-c1;
   }
 }
-@mixin cardCiclistas() {
-  .cardCiclistas {
-    background-color: $color-secundario-o1;
-    .card-img {
-      max-width: 100%;
-      max-height: 200px;
-    }
+.cardCiclistas {
+  background-color: $color-secundario-o2 !important;
+  .card-img {
+    max-width: 100%;
+    max-height: 200px;
   }
 }

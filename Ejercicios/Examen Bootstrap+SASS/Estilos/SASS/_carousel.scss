@@ -5,12 +5,13 @@
   #carouselExampleCaptions {
     .carousel-item {
       img {
-        height: 600px;
+        max-height: 600px;
       }
       .carousel-caption {
         h5,
         p {
           color: $color-secundario-c1 !important;
+          text-align: center !important;
         }
         background-color: $color-primario-c2;
       }

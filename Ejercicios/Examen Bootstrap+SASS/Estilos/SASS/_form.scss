@@ -1,0 +1,21 @@
+@import "./colores";
+@import "./fuentes";
+
+.form-control,
+.form-check-input {
+  &:focus {
+    border-color: $color-primario-o1;
+    box-shadow: none;
+    outline: 0 none;
+  }
+}
+.btn-personalizado {
+  background-color: $color-primario-o2 !important;
+  color: #ffffff;
+
+  &:hover {
+    background-color: $color-secundario !important;
+    border-color: $color-primario-o1 !important;
+    color: $color-primario-o1;
+  }
+}

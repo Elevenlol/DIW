@@ -3,6 +3,7 @@
 
 @mixin nav() {
   background-color: $color-primario;
+  width: 100%;
   .navbar-brand {
     margin-left: 4%;
     img {
@@ -27,7 +28,7 @@
           }
           &.active {
             //Sin el important no sustituye al color secundario-c1
-            color: $color-secundario-02 !important;
+            color: $color-secundario-o2 !important;
           }
         }
         &.dropdown {
@@ -39,6 +40,10 @@
               &:hover {
                 background-color: $color-secundario-c1 !important;
                 color: $color-primario;
+              }
+              &.active {
+                color: black;
+                background-color: $color-secundario-c1 !important;
               }
             }
           }
