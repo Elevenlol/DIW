@@ -1,12 +1,14 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./card";
 @import "./colores";
 @import "./fuentes";
+@import "./card";
 @import "./navbar";
 @import "./carousel";
 @import "./footer";
 @import "./alert";
 @import "./form";
+@import "./accordion";
+
 * {
   margin: 0;
   padding: 0;
@@ -22,5 +24,3 @@ body {
 #carousel {
   @include carousel();
 }
-
-

@@ -1,11 +1,8 @@
-@import "./colores";
-@import "./fuentes";
-
-#aviso{
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: $color-primario;
-    color: #ffffff;
-  }
+#aviso {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: $color-primario;
+  color: #ffffff;
+}
