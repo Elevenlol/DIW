@@ -102,22 +102,20 @@ const datos = [
     ubicacion: "NAVALENO (SORIA)",
   },
 ];
-if (typeof document != "undefined") {
-  let tbody = document.getElementById("tabla-Pruebas");
-  datos.forEach(function (item) {
-    let fila = document.createElement("tr");
-    let fechaCell = document.createElement("td");
-    fechaCell.textContent = item.fecha;
-    fila.appendChild(fechaCell);
-    let nombreCell = document.createElement("td");
-    nombreCell.textContent = item.nombre;
-    fila.appendChild(nombreCell);
-    let tipoCell = document.createElement("td");
-    tipoCell.textContent = item.tipo;
-    fila.appendChild(tipoCell);
-    let ubicacionCell = document.createElement("td");
-    ubicacionCell.textContent = item.ubicacion;
-    fila.appendChild(ubicacionCell);
-    tbody.appendChild(fila);
-  });
-}
+let tbody = document.getElementById("tablaPruebas");
+datos.forEach(function (item) {
+  let fila = document.createElement("tr");
+  let fechaCell = document.createElement("td");
+  fechaCell.textContent = item.fecha;
+  fila.appendChild(fechaCell);
+  let nombreCell = document.createElement("td");
+  nombreCell.textContent = item.nombre;
+  fila.appendChild(nombreCell);
+  let tipoCell = document.createElement("td");
+  tipoCell.textContent = item.tipo;
+  fila.appendChild(tipoCell);
+  let ubicacionCell = document.createElement("td");
+  ubicacionCell.textContent = item.ubicacion;
+  fila.appendChild(ubicacionCell);
+  tbody.appendChild(fila);
+});

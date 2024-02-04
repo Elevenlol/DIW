@@ -11965,6 +11965,9 @@ form {
   background-color: #780015;
   color: #ffffff;
 }
+.cardTienda img {
+  max-height: 250px;
+}
 
 .cardCiclistas {
   background-color: #a0a6c1 !important;

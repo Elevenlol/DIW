@@ -17,6 +17,9 @@
     background-color: $color-primario-o2;
     color: $color-secundario-c1;
   }
+  img {
+    max-height: 250px;
+  }
 }
 .cardCiclistas {
   background-color: $color-secundario-o2 !important;
