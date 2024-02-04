@@ -11969,9 +11969,62 @@ form {
 .cardCiclistas {
   background-color: #a0a6c1 !important;
 }
-.cardCiclistas .card-img {
+.cardCiclistas .cardImg {
   max-width: 100%;
   max-height: 200px;
+}
+
+.navbar {
+  background-color: #c41e3a;
+  width: 100%;
+}
+.navbar .navbar-brand {
+  margin-left: 4%;
+}
+.navbar .navbar-brand img {
+  max-width: 75px;
+  max-height: 75px;
+  vertical-align: middle;
+}
+.navbar div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar div .navbar-nav .nav-item .nav-link {
+  /*Propiedades textos color etc etc*/
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  color: black;
+  color: #ffffff !important;
+}
+.navbar div .navbar-nav .nav-item .nav-link:hover {
+  background-color: #ffffff;
+  color: #c41e3a !important;
+}
+.navbar div .navbar-nav .nav-item .nav-link.active {
+  color: #a0a6c1 !important;
+}
+.navbar div .navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: #c41e3a !important;
+}
+.navbar div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+  background-color: #c41e3a !important;
+  color: #ffffff;
+}
+.navbar div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #ffffff !important;
+  color: #c41e3a;
+}
+.navbar div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item.active {
+  color: black;
+  background-color: #ffffff !important;
+}
+.navbar div .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle.show {
+  color: black !important;
+  background-color: #ffffff;
 }
 
 #carouselExampleCaptions .carousel-item img {
@@ -12012,7 +12065,8 @@ footer img {
   bottom: 0;
   left: 0;
   background-color: #c41e3a;
-  color: #ffffff;
+  color: #eeeff3;
+  text-align: center;
   z-index: 1;
 }
 
@@ -12035,64 +12089,12 @@ footer img {
 
 .accordion-button {
   background-color: #d6455e !important;
+  color: #eeeff3 !important;
 }
 
 * {
   margin: 0;
   padding: 0;
-}
-
-nav {
-  background-color: #c41e3a;
-  width: 100%;
-}
-nav .navbar-brand {
-  margin-left: 4%;
-}
-nav .navbar-brand img {
-  max-width: 75px;
-  max-height: 75px;
-  vertical-align: middle;
-}
-nav div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-nav div .navbar-nav .nav-item .nav-link {
-  /*Propiedades textos color etc etc*/
-  text-align: center;
-  font-size: 1.2em;
-  font-family: "Lato", sans-serif;
-  color: black;
-  color: #ffffff !important;
-}
-nav div .navbar-nav .nav-item .nav-link:hover {
-  background-color: #ffffff;
-  color: #c41e3a !important;
-}
-nav div .navbar-nav .nav-item .nav-link.active {
-  color: #a0a6c1 !important;
-}
-nav div .navbar-nav .nav-item.dropdown .dropdown-menu {
-  background-color: #c41e3a !important;
-}
-nav div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
-  background-color: #c41e3a !important;
-  color: #ffffff;
-}
-nav div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #ffffff !important;
-  color: #c41e3a;
-}
-nav div .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item.active {
-  color: black;
-  background-color: #ffffff !important;
-}
-nav div .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle.show {
-  color: black !important;
-  background-color: #ffffff;
 }
 
 body {
