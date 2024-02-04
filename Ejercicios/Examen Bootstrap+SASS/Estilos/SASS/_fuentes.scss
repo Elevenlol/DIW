@@ -35,7 +35,6 @@ h3 {
 h5 {
   @include titulos(1.5em);
 }
-
 .nav-link {
   @include textoLato();
 }

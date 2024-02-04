@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Estilos/CSS/estilos.css">
     <link rel="shortcut icon" href="Assets/castillaleon-logo-principal.ico" type="image/x-icon">
@@ -11,260 +12,269 @@
 
     <title>Fedérate</title>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="index.html">
-        <img src="Assets/castillaleon-logo-principal.png" alt="Logo" id="#logoMenu">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    Inicio
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                    Pruebas
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="PruebasMasculinas.html">Pruebas masculinas</a></li>
-                    <li><a class="dropdown-item" href="PruebasFemeninas.html">Pruebas femeninas</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="federate.html">
-                    Fedérate
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="tienda.html">
-                    Tienda
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/castillaleon-logo-principal.png" alt="Logo" id="#logoMenu">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Pruebas
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="PruebasMasculinas.html">Pruebas masculinas</a></li>
+                        <li><a class="dropdown-item" href="PruebasFemeninas.html">Pruebas femeninas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="federate.html">
+                        Fedérate
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tienda.html">
+                        Tienda
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<section class="container">
-    <header><h1>Fedérate</h1></header>
-    <main>
-        <form>
-            <fieldset>
-                <legend>Tipo de licencia</legend>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="tipoLicencia" id="federado" checked>
-                    <label class="form-check-label" for="federado">Licencia de Federado. Para ciclistas de
-                        competición</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="tipoLicencia" id="carnet">
-                    <label class="form-check-label" for="federado">Carnet ciclista. Para ciclistas de ocio y ciclistas
-                        urbanos</label>
-                </div>
-            </fieldset>
+    <section class="container">
+        <header>
+            <h1>Fedérate</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Tipo de licencia</legend>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipoLicencia" id="federado" checked>
+                        <label class="form-check-label" for="federado">
+                            Licencia de Federado. Para ciclistas de competición</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipoLicencia" id="carnet">
+                        <label class="form-check-label" for="federado">
+                            Carnet ciclista. Para ciclistas de ocio y ciclistas urbanos
+                        </label>
+                    </div>
+                </fieldset>
 
-            <fieldset>
-                <legend>Datos del ciclista</legend>
-                <div class="row gy-3">
-                    <div class="col-lg-6 col-md-12">
-                        <label for="nombre" class="form-label">
-                            Nombre
-                        </label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="apell" class="form-label">
-                            Apellidos
-                        </label>
-                        <input type="text" class="form-control" id="apell" placeholder="Introduce tu nombre" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="fechaNacim" class="form-label">
-                            Fecha de nacimiento
-                        </label>
-                        <input type="date" class="form-control" id="fechaNacim" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="dni" class="form-label">
-                            DNI
-                        </label>
-                        <input type="text" class="form-control" id="dni" placeholder="DNI" required>
-                    </div>
-                    <div class="col-lg-3 col-md-12">
-                        <label>Género</label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="genero" id="hombre" checked>
-                            <label class="form-check-label" for="federado">Hombre</label>
+                <fieldset>
+                    <legend>Datos del ciclista</legend>
+                    <div class="row gy-3">
+                        <div class="col-lg-6 col-md-12">
+                            <label for="nombre" class="form-label">
+                                Nombre
+                            </label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre"
+                                required>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="genero" id="mujer">
-                            <label class="form-check-label" for="federado">Mujer</label>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="apell" class="form-label">
+                                Apellidos
+                            </label>
+                            <input type="text" class="form-control" id="apell" placeholder="Introduce tu nombre"
+                                required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="fechaNacim" class="form-label">
+                                Fecha de nacimiento
+                            </label>
+                            <input type="date" class="form-control" id="fechaNacim" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="dni" class="form-label">
+                                DNI
+                            </label>
+                            <input type="text" class="form-control" id="dni" placeholder="DNI" required>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <label>Género</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="genero" id="hombre" checked>
+                                <label class="form-check-label" for="federado">Hombre</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="genero" id="mujer">
+                                <label class="form-check-label" for="federado">Mujer</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <label for="listaProvincias" class="form-label">
+                                Provincia de residencia
+                            </label>
+                            <input class="form-control" list="provincias" id="listaProvincias"
+                                placeholder="Introduce tu provincia" required>
+                            <datalist id="provincias">
+                                <option value="Ávila"></option>
+                                <option value="Burgos"></option>
+                                <option value="León"></option>
+                                <option value="Palencia"></option>
+                                <option value="Salamanca"></option>
+                                <option value="Segovia"></option>
+                                <option value="Soria"></option>
+                                <option value="Valladolid"></option>
+                                <option value="Zamora"></option>
+                            </datalist>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <label for="municipio" class="form-label">
+                                Municipio
+                            </label>
+                            <input type="text" class="form-control" id="municipio" placeholder="Municipio" required>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <label for="cp" class="form-label">
+                                Código Postal
+                            </label>
+                            <input type="number" class="form-control" id="cp" placeholder="Codigo Postal" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="foto" class="form-label">Foto</label>
+                            <input class="form-control" id="foto" type="file" accept="image/*" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="telefono" class="form-label">
+                                Teléfono
+                            </label>
+                            <input type="number" class="form-control" id="telefono" placeholder="Teléfono" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="telefono2" class="form-label">
+                                Otro teléfono
+                            </label>
+                            <input type="number" class="form-control" id="telefono2" placeholder="Teléfono" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="email" class="form-label">
+                                E-Mail
+                            </label>
+                            <input type="email" class="form-control" id="email" placeholder="E-Mail" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="email2" class="form-label">
+                                Repita su E-Mail
+                            </label>
+                            <input type="email" class="form-control" id="email2" placeholder="E-Mail" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="pass" class="form-label">
+                                Contraseña
+                            </label>
+                            <input type="password" class="form-control" id="pass" placeholder="Contraseña" required>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label for="pass2" class="form-label">
+                                Contraseña
+                            </label>
+                            <input type="password" class="form-control" id="pass2" placeholder="Contraseña" required>
+                        </div>
+                        <div class="col-12" id="clubFederacion">
+                            <label for="club" class="form-label">
+                                Club en el que te federas. (Solo para Licencia de Federado)
+                            </label>
+                            <input type="text" class="form-control" id="club" placeholder="Club" required>
+                        </div>
+                        <div class="col-12" id="categoria">
+                            <label>Categoría (Solo para Licencia de Federado)</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="cat" id="-23">
+                                <label class="form-check-label" for="-23">Sub-23</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="cat" id="elite" checked>
+                                <label class="form-check-label" for="elite">Élite</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="cat" id="master30">
+                                <label class="form-check-label" for="master30">Master 30</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="cat" id="master40">
+                                <label class="form-check-label" for="master40">Master 40</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="cat" id="master50">
+                                <label class="form-check-label" for="master50">Master 50</label>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-12">
-                        <label for="listaProvincias" class="form-label">
-                            Provincia de residencia
-                        </label>
-                        <input class="form-control" list="provincias" id="listaProvincias"
-                               placeholder="Introduce tu provincia" required>
-                        <datalist id="provincias">
-                            <option value="Ávila"></option>
-                            <option value="Burgos"></option>
-                            <option value="León"></option>
-                            <option value="Palencia"></option>
-                            <option value="Salamanca"></option>
-                            <option value="Segovia"></option>
-                            <option value="Soria"></option>
-                            <option value="Valladolid"></option>
-                            <option value="Zamora"></option>
-                        </datalist>
-                    </div>
-                    <div class="col-lg-3 col-md-12">
-                        <label for="municipio" class="form-label">
-                            Municipio
-                        </label>
-                        <input type="text" class="form-control" id="municipio" placeholder="Municipio" required>
-                    </div>
-                    <div class="col-lg-3 col-md-12">
-                        <label for="cp" class="form-label">
-                            Código Postal
-                        </label>
-                        <input type="number" class="form-control" id="cp" placeholder="Codigo Postal" required>
-                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        ¿Aceptas los siguientes términos?
+                    </legend>
                     <div class="col-12">
-                        <label for="foto" class="form-label">Foto</label>
-                        <input class="form-control" id="foto" type="file" accept="image/*" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="telefono" class="form-label">
-                            Teléfono
-                        </label>
-                        <input type="number" class="form-control" id="telefono" placeholder="Teléfono" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="telefono2" class="form-label">
-                            Otro teléfono
-                        </label>
-                        <input type="number" class="form-control" id="telefono2" placeholder="Teléfono" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="email" class="form-label">
-                            E-Mail
-                        </label>
-                        <input type="email" class="form-control" id="email" placeholder="E-Mail" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="email2" class="form-label">
-                            Repita su E-Mail
-                        </label>
-                        <input type="email" class="form-control" id="email2" placeholder="E-Mail" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="pass" class="form-label">
-                            Contraseña
-                        </label>
-                        <input type="password" class="form-control" id="pass" placeholder="Contraseña" required>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <label for="pass2" class="form-label">
-                            Contraseña
-                        </label>
-                        <input type="password" class="form-control" id="pass2" placeholder="Contraseña" required>
-                    </div>
-                    <div class="col-12" id="clubFederacion">
-                        <label for="club" class="form-label">
-                            Club en el que te federas. (Solo para Licencia de Federado)
-                        </label>
-                        <input type="text" class="form-control" id="club" placeholder="Club" required>
-                    </div>
-                    <div class="col-12" id="categoria">
-                        <label>Categoría (Solo para Licencia de Federado)</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="cat" id="-23" >
-                            <label class="form-check-label" for="-23">Sub-23</label>
+                            <input class="form-check-input" type="checkbox" value="" id="datosVerdaderos">
+                            <label class="form-check-label" for="informacionComercial">Declaro que todos los datos
+                                introducidos son correctos</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="cat" id="elite" checked>
-                            <label class="form-check-label" for="elite">Élite</label>
+                            <input class="form-check-input" type="checkbox" value="" id="informacionComercial">
+                            <label class="form-check-label" for="informacionComercial">Acepto recibir información
+                                comercial
+                                en mi correo electrónico</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="cat" id="master30" >
-                            <label class="form-check-label" for="master30">Master 30</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="cat" id="master40" >
-                            <label class="form-check-label" for="master40">Master 40</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="cat" id="master50" >
-                            <label class="form-check-label" for="master50">Master 50</label>
+                            <input class="form-check-input" type="checkbox" value="" id="EULA">
+                            <label class="form-check-label" for="informacionComercial">He leído y acepto la información
+                                relativa al tratamiento de mis datos</label>
                         </div>
 
                     </div>
-                </div>
+                </fieldset>
+            </form>
+            <button class="btn btn-personalizado">Federarme</button>
+        </main>
+    </section>
 
-            </fieldset>
-            <fieldset>
-                <legend>
-                    ¿Aceptas los siguientes términos?
-                </legend>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="datosVerdaderos">
-                        <label class="form-check-label" for="informacionComercial">Declaro que todos los datos
-                            introducidos son correctos</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="informacionComercial">
-                        <label class="form-check-label" for="informacionComercial">Acepto recibir información comercial
-                            en mi correo electrónico</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="EULA">
-                        <label class="form-check-label" for="informacionComercial">He leído y acepto la información
-                            relativa al tratamiento de mis datos</label>
-                    </div>
+    <footer>
+        <header>
+            <h2>Patrocinadores</h2>
+        </header>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Assets/Patrocinadores/fecyl.png">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Assets/Patrocinadores/uci.png">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Assets/Patrocinadores/jcyl.jpg">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Assets/Patrocinadores/afede.jpg">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Assets/Patrocinadores/soyvd.jpg">
+            </div>
+        </div>
+    </footer>
 
-                </div>
-            </fieldset>
-        </form>
-        <button class="btn btn-personalizado">Federarme</button>
-    </main>
-</section>
-
-<footer>
-    <header>
-        <h2>Patrocinadores</h2>
-    </header>
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="Assets/Patrocinadores/fecyl.png">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="Assets/Patrocinadores/uci.png">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="Assets/Patrocinadores/jcyl.jpg">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="Assets/Patrocinadores/afede.jpg">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img src="Assets/Patrocinadores/soyvd.jpg">
-        </div>
-    </div>
-</footer>
-
-<script src="Scripts/federate.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    <script src="Scripts/federate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -11974,6 +11974,18 @@ form {
   max-height: 200px;
 }
 
+#carouselExampleCaptions .carousel-item img {
+  max-height: 600px;
+}
+#carouselExampleCaptions .carousel-item .carousel-caption {
+  background-color: #f07288;
+}
+#carouselExampleCaptions .carousel-item .carousel-caption h5, #carouselExampleCaptions .carousel-item .carousel-caption .h5,
+#carouselExampleCaptions .carousel-item .carousel-caption p {
+  color: #ffffff !important;
+  text-align: center !important;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -11981,6 +11993,7 @@ footer {
   width: 100%;
   margin-top: 5%;
   padding: 1%;
+  bottom: 0%;
 }
 footer .row {
   text-align: center;
@@ -12000,6 +12013,7 @@ footer img {
   left: 0;
   background-color: #c41e3a;
   color: #ffffff;
+  z-index: 1;
 }
 
 .form-control:focus,
@@ -12085,18 +12099,6 @@ body {
   background-color: #eeeff3;
   color: black;
   overflow-x: hidden;
-}
-
-#carousel #carouselExampleCaptions .carousel-item img {
-  max-height: 600px;
-}
-#carousel #carouselExampleCaptions .carousel-item .carousel-caption {
-  background-color: #f07288;
-}
-#carousel #carouselExampleCaptions .carousel-item .carousel-caption h5, #carousel #carouselExampleCaptions .carousel-item .carousel-caption .h5,
-#carousel #carouselExampleCaptions .carousel-item .carousel-caption p {
-  color: #ffffff !important;
-  text-align: center !important;
 }
 
 /*# sourceMappingURL=estilos.css.map */
