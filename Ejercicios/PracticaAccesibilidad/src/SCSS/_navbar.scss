@@ -1,0 +1,11 @@
+@import "./colores";
+.navbar {
+  background-color: $colorPrimario !important;
+  color: $colorBlanco !important;
+  label {
+    margin-left: 5%;
+  }
+  #campoBusqueda {
+    width: 400px;
+  }
+}
