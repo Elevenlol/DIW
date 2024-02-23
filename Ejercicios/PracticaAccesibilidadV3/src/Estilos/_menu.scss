@@ -1,0 +1,19 @@
+.navbar {
+  background-color: $colorNavbar !important;
+  color: $colorBlanco !important;
+  span {
+    color: $colorBlanco !important;
+  }
+  .search-container {
+    width: 300px;
+  }
+  #link {
+    color: $colorBlanco !important;
+    margin-right: 5px;
+  }
+  #link:hover {
+    background-color: $colorBlanco !important;
+    color: black !important;
+    border-radius: 15px;
+  }
+}

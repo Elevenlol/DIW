@@ -1,0 +1,30 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "colores";
+@import "fuentes";
+@import "main";
+@import "tarjeta";
+@import "tarjetero";
+@import "menu";
+@import "home";
+@import "videos";
+@import "footer";
+
+h1 {
+  @include titulos(40px);
+}
+h2 {
+  @include titulos(30px);
+}
+h5 {
+  @include titulos(20px);
+}
+p,
+span,
+a {
+  @include texto();
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

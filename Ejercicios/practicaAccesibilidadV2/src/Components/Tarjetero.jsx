@@ -42,9 +42,9 @@ const Tarjetero = ({ setCode }) => {
           <img src="../../src/assets/loading.gif" alt="Cargando..." />
         </div>
       ) : hasSearched ? (
-        <Row>
+        <Row className="container">
           {cartas.map((carta) => (
-            <Col key={carta.id} sm={12} md={6} xl={4}>
+            <Col id="colTarjeta" key={carta.id} sm={12} md={6} xl={4}>
               <Tarjeta carta={carta} />
             </Col>
           ))}

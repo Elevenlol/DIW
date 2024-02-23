@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+@mixin titulos($tamaño) {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: $tamaño;
+  text-align: center;
+}
+@mixin texto() {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 14;
+}
