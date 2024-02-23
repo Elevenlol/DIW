@@ -1,0 +1,17 @@
+.loading-container {
+  text-align: center;
+  height: 100vh;
+}
+
+#historico {
+  background-color: $colorBlanco !important;
+  text-align: center;
+  border: 2px black;
+  border-radius: 15px;
+}
+#fotoPortada {
+  margin-bottom: 3%;
+  .fotoInicio {
+    object-fit: cover;
+  }
+}

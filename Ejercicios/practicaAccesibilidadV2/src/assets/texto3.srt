@@ -1,0 +1,860 @@
+1
+00:00:00,000 --> 00:00:03,720
+hey que tal soy chus encantado y hoy voy
+
+2
+00:00:03,720 --> 00:00:06,359
+a empezar una serie de vídeos en las que
+
+3
+00:00:06,359 --> 00:00:09,030
+voy a explicar cómo se juega a magic y
+
+4
+00:00:09,030 --> 00:00:10,860
+vamos a empezar desde este vídeo
+
+5
+00:00:10,860 --> 00:00:12,520
+contando lo más elemental
+
+6
+00:00:12,520 --> 00:00:15,140
+[Música]
+
+7
+00:00:15,140 --> 00:00:17,810
+magic es un juego de cartas para dos
+
+8
+00:00:17,810 --> 00:00:20,480
+jugadores normalmente jugar a un jugador
+
+9
+00:00:20,480 --> 00:00:22,310
+contra otro jugador contra jugador
+
+10
+00:00:22,310 --> 00:00:25,610
+aunque también existen otros modos de
+
+11
+00:00:25,610 --> 00:00:28,040
+juego en magic que implican a varios
+
+12
+00:00:28,040 --> 00:00:30,410
+jugadores dentro de una misma partida es
+
+13
+00:00:30,410 --> 00:00:32,270
+un juego en el que se compite contra los
+
+14
+00:00:32,270 --> 00:00:34,430
+demás jugadores y gana el jugador que
+
+15
+00:00:34,430 --> 00:00:36,860
+consigue reducir el total de vidas de su
+
+16
+00:00:36,860 --> 00:00:40,370
+oponente a 0 aunque the magic también
+
+17
+00:00:40,370 --> 00:00:41,870
+puedes perder
+
+18
+00:00:41,870 --> 00:00:44,600
+si eres ese jugador que cuando va a
+
+19
+00:00:44,600 --> 00:00:46,489
+robar cartas de su baraja no le queda
+
+20
+00:00:46,489 --> 00:00:49,730
+ninguna carta más para robar en ese caso
+
+21
+00:00:49,730 --> 00:00:52,489
+también pierdes la partida así que magic
+
+22
+00:00:52,489 --> 00:00:54,649
+es un juego donde puedes ganar pero
+
+23
+00:00:54,649 --> 00:00:56,930
+también puedes perder
+
+24
+00:00:56,930 --> 00:00:59,090
+para empezar a jugar cada jugador deberá
+
+25
+00:00:59,090 --> 00:01:01,430
+llevar su propia baraja importante que
+
+26
+00:01:01,430 --> 00:01:03,260
+comprobar lo bien que sea una baraja de
+
+27
+00:01:03,260 --> 00:01:05,540
+magic no que sea una baraja española ni
+
+28
+00:01:05,540 --> 00:01:07,720
+una baraja epoque francesa ni nada así
+
+29
+00:01:07,720 --> 00:01:10,400
+barajar la baraja a darle 2 - como estoy
+
+30
+00:01:10,400 --> 00:01:13,580
+haciendo yo darle a cortar al oponente y
+
+31
+00:01:13,580 --> 00:01:16,250
+después cada jugador robada siete cartas
+
+32
+00:01:16,250 --> 00:01:18,770
+que se pondrá en la mano en ese momento
+
+33
+00:01:18,770 --> 00:01:22,900
+empiezan las decisiones en magic
+
+34
+00:01:24,040 --> 00:01:26,770
+debes de decidir si con esas cartas que
+
+35
+00:01:26,770 --> 00:01:28,420
+tienes en la mano puedes jugar la
+
+36
+00:01:28,420 --> 00:01:31,180
+partida y ganar a tu oponente en caso de
+
+37
+00:01:31,180 --> 00:01:33,880
+que tú consideres que esa mano no es
+
+38
+00:01:33,880 --> 00:01:35,020
+suficiente para ganar a tu oponente
+
+39
+00:01:35,020 --> 00:01:37,330
+porque has tenido mala suerte siempre
+
+40
+00:01:37,330 --> 00:01:39,400
+puedes devolver siete cartas de tu mano
+
+41
+00:01:39,400 --> 00:01:42,910
+volver a barajar y robar otras siete
+
+42
+00:01:42,910 --> 00:01:45,580
+cartas nuevas este proceso lo puedes
+
+43
+00:01:45,580 --> 00:01:48,280
+repetir tantas veces como quieras hasta
+
+44
+00:01:48,280 --> 00:01:51,040
+que consigas una mano con la que estés
+
+45
+00:01:51,040 --> 00:01:52,990
+contento con tus cartas y creas que
+
+46
+00:01:52,990 --> 00:01:55,570
+pueda ganar pero ojo
+
+47
+00:01:55,570 --> 00:01:57,400
+una vez que decidas que esa mano es la
+
+48
+00:01:57,400 --> 00:01:59,229
+buena que esa mano es con la que vas a
+
+49
+00:01:59,229 --> 00:02:02,050
+jugar van a tener que devolver una carta
+
+50
+00:02:02,050 --> 00:02:05,229
+de tu mano al fondo de tu baraja por
+
+51
+00:02:05,229 --> 00:02:08,350
+cada vez que hayas hecho este proceso de
+
+52
+00:02:08,350 --> 00:02:10,690
+barajar y robar una mano nueva a esta
+
+53
+00:02:10,690 --> 00:02:13,450
+regla se le llama regla del mulligan una
+
+54
+00:02:13,450 --> 00:02:15,550
+regla que ya tiene bastante solo air and
+
+55
+00:02:15,550 --> 00:02:17,560
+magic y que ha cambiado varias veces
+
+56
+00:02:17,560 --> 00:02:19,450
+durante la historia de este juego porque
+
+57
+00:02:19,450 --> 00:02:21,070
+os recuerdo que magic es un juego que
+
+58
+00:02:21,070 --> 00:02:23,709
+tiene más de 25 años y que ha sufrido
+
+59
+00:02:23,709 --> 00:02:25,959
+algunos cambios desde el principio hasta
+
+60
+00:02:25,959 --> 00:02:28,420
+el tiempo en el que estamos ahora
+
+61
+00:02:28,420 --> 00:02:31,150
+si te fijas en las cartas de tu mano vas
+
+62
+00:02:31,150 --> 00:02:33,489
+a poder diferenciarlas fácilmente por
+
+63
+00:02:33,489 --> 00:02:36,130
+dos tipos de cartas por un lado tenemos
+
+64
+00:02:36,130 --> 00:02:39,520
+las tierras que sirven como recurso para
+
+65
+00:02:39,520 --> 00:02:41,680
+jugar el otro tipo de cartas que tenemos
+
+66
+00:02:41,680 --> 00:02:43,930
+en la mano los hechizos si echas un
+
+67
+00:02:43,930 --> 00:02:45,850
+vistazo a las tierras verás que están
+
+68
+00:02:45,850 --> 00:02:48,850
+estrechamente relacionadas con cada uno
+
+69
+00:02:48,850 --> 00:02:50,770
+de los cinco colores que existen en el
+
+70
+00:02:50,770 --> 00:02:52,920
+magic así que podemos tener por ejemplo
+
+71
+00:02:52,920 --> 00:02:54,940
+llanuras que son las que están
+
+72
+00:02:54,940 --> 00:02:58,000
+relacionadas con el color blanco islas
+
+73
+00:02:58,000 --> 00:02:59,920
+que están relacionadas con el color azul
+
+74
+00:02:59,920 --> 00:03:01,900
+del màgic pantanos que están
+
+75
+00:03:01,900 --> 00:03:04,930
+relacionados con el color negro montañas
+
+76
+00:03:04,930 --> 00:03:07,810
+con el color rojo y bosques con el color
+
+77
+00:03:07,810 --> 00:03:11,530
+verde a estas cinco tierras en magic se
+
+78
+00:03:11,530 --> 00:03:14,200
+les llama tierras básicas y si eres un
+
+79
+00:03:14,200 --> 00:03:16,209
+poco perspicaz te podrá fijar que por
+
+80
+00:03:16,209 --> 00:03:18,790
+ejemplo en el símbolo de maná de esta
+
+81
+00:03:18,790 --> 00:03:21,269
+llanura a este símbolo que hay aquí
+
+82
+00:03:21,269 --> 00:03:24,819
+coincide bastante con este símbolo que
+
+83
+00:03:24,819 --> 00:03:27,489
+tenemos aquí arriba de esta carta del
+
+84
+00:03:27,489 --> 00:03:29,950
+escudo de voto toda la combinación de
+
+85
+00:03:29,950 --> 00:03:31,840
+símbolos que aparece en la esquina
+
+86
+00:03:31,840 --> 00:03:33,670
+superior derecha es
+
+87
+00:03:33,670 --> 00:03:35,830
+que nos cuesta jugar esta carta por
+
+88
+00:03:35,830 --> 00:03:38,200
+ejemplo en este caso el estudiante
+
+89
+00:03:38,200 --> 00:03:40,510
+devoto sólo necesita un punto de maná
+
+90
+00:03:40,510 --> 00:03:42,970
+blanco para que lo podamos jugar de
+
+91
+00:03:42,970 --> 00:03:45,730
+nuestra mano al campo de batalla para
+
+92
+00:03:45,730 --> 00:03:47,560
+hacer eso previamente tendremos que
+
+93
+00:03:47,560 --> 00:03:49,750
+utilizar una de nuestras tierras que nos
+
+94
+00:03:49,750 --> 00:03:52,060
+dé maná blanco como por ejemplo la
+
+95
+00:03:52,060 --> 00:03:54,970
+llanura y jugar el escudo ante devoto
+
+96
+00:03:54,970 --> 00:03:57,730
+giraremos esta tierra a 90 grados a la
+
+97
+00:03:57,730 --> 00:03:59,410
+derecha para indicar que ya la hemos
+
+98
+00:03:59,410 --> 00:04:02,410
+utilizado en pagar esta carta no podemos
+
+99
+00:04:02,410 --> 00:04:04,959
+utilizar tierras que ya tengamos giradas
+
+100
+00:04:04,959 --> 00:04:08,050
+para pagar otras cartas por ejemplo si
+
+101
+00:04:08,050 --> 00:04:10,060
+en nuestra mano tenemos un pangolín de
+
+102
+00:04:10,060 --> 00:04:12,400
+las tinieblas que es una carta que nos
+
+103
+00:04:12,400 --> 00:04:14,769
+cuesta un punto de mala negro y dos
+
+104
+00:04:14,769 --> 00:04:16,570
+puntos de mar adicional que podemos
+
+105
+00:04:16,570 --> 00:04:19,238
+pagar con maná de cualquier color y
+
+106
+00:04:19,238 --> 00:04:21,339
+también tenemos en nuestra mano un
+
+107
+00:04:21,339 --> 00:04:23,380
+barril archimó botón área no que nos
+
+108
+00:04:23,380 --> 00:04:25,900
+cuesta dos puntos de maná azul y un
+
+109
+00:04:25,900 --> 00:04:28,120
+punto de maná adicional que podemos
+
+110
+00:04:28,120 --> 00:04:30,550
+pagar con maná de cualquier color pero
+
+111
+00:04:30,550 --> 00:04:32,100
+en el campo de batalla tenemos
+
+112
+00:04:32,100 --> 00:04:34,960
+únicamente tres tierras deberemos de
+
+113
+00:04:34,960 --> 00:04:37,360
+elegir en nuestro turno cuál de estas
+
+114
+00:04:37,360 --> 00:04:40,030
+dos cartas nos conviene jugar
+
+115
+00:04:40,030 --> 00:04:42,160
+que una vez que paguemos el maná para
+
+116
+00:04:42,160 --> 00:04:44,740
+jugar una de esas dos cartas no podremos
+
+117
+00:04:44,740 --> 00:04:47,650
+pagar maná para jugar la otra carta ya
+
+118
+00:04:47,650 --> 00:04:49,420
+que estas tierras se encuentran tiradas
+
+119
+00:04:49,420 --> 00:04:52,270
+y no podemos jugar hechizos vagando maná
+
+120
+00:04:52,270 --> 00:04:54,670
+de las tierras giradas podemos jugar
+
+121
+00:04:54,670 --> 00:04:57,280
+tantos hechizos en nuestro turno como
+
+122
+00:04:57,280 --> 00:04:59,650
+tierras tengamos interesadas para poder
+
+123
+00:04:59,650 --> 00:05:02,140
+pagar y poder jugarlos todos pero en
+
+124
+00:05:02,140 --> 00:05:04,840
+cambio sólo podemos jugar una tierra de
+
+125
+00:05:04,840 --> 00:05:06,730
+nuestra mano en cada uno de nuestros
+
+126
+00:05:06,730 --> 00:05:09,520
+turnos eso sí no te preocupes porque al
+
+127
+00:05:09,520 --> 00:05:11,290
+principio de cada uno de tus turnos
+
+128
+00:05:11,290 --> 00:05:13,270
+todas las cartas que tengas giradas
+
+129
+00:05:13,270 --> 00:05:16,480
+vuelven a recuperar su posición normal a
+
+130
+00:05:16,480 --> 00:05:18,900
+esta posición en magic se le llama
+
+131
+00:05:18,900 --> 00:05:21,400
+enderezada es decir una carta cuando
+
+132
+00:05:21,400 --> 00:05:24,070
+esta recta está enderezada y cuando la
+
+133
+00:05:24,070 --> 00:05:26,800
+girado 90 grados a la derecha está
+
+134
+00:05:26,800 --> 00:05:29,370
+girada y por lo tanto ha sido utilizada
+
+135
+00:05:29,370 --> 00:05:31,980
+[Música]
+
+136
+00:05:31,980 --> 00:05:33,750
+como magic es un juego que tiene
+
+137
+00:05:33,750 --> 00:05:36,240
+bastantes años a sus espaldas también ha
+
+138
+00:05:36,240 --> 00:05:38,310
+experimentado un poquito con los costes
+
+139
+00:05:38,310 --> 00:05:40,320
+de maná y nos podemos encontrar dentro
+
+140
+00:05:40,320 --> 00:05:42,510
+de cartas de magic costes que son tan
+
+141
+00:05:42,510 --> 00:05:44,880
+habituales como puede ser por ejemplo el
+
+142
+00:05:44,880 --> 00:05:48,300
+mal hábito o el mala pirexia no también
+
+143
+00:05:48,300 --> 00:05:51,600
+he preparado un vídeo que explica bien
+
+144
+00:05:51,600 --> 00:05:54,660
+claro y clarísimo todos los costes que
+
+145
+00:05:54,660 --> 00:05:56,490
+existen en el magic para que tengas un
+
+146
+00:05:56,490 --> 00:05:59,400
+experto en esto de pagar cartas para
+
+147
+00:05:59,400 --> 00:06:01,620
+ponerlas en el campo de batalla pero si
+
+148
+00:06:01,620 --> 00:06:03,780
+nos fijamos en los hechizos no solamente
+
+149
+00:06:03,780 --> 00:06:06,120
+se dividen simplemente por color sino
+
+150
+00:06:06,120 --> 00:06:08,310
+que también se dividen por tipos según
+
+151
+00:06:08,310 --> 00:06:10,260
+qué función cumplan en la partida
+
+152
+00:06:10,260 --> 00:06:12,810
+tendremos por ejemplo las criaturas que
+
+153
+00:06:12,810 --> 00:06:14,850
+representan las huestes que van a luchar
+
+154
+00:06:14,850 --> 00:06:17,250
+de nuestra parte para quitar la vida al
+
+155
+00:06:17,250 --> 00:06:19,280
+oponente para ponerle en problemas
+
+156
+00:06:19,280 --> 00:06:22,290
+tenemos también artefactos que son
+
+157
+00:06:22,290 --> 00:06:25,290
+objetos mágicos poderosos que también te
+
+158
+00:06:25,290 --> 00:06:26,730
+ayudarán un poquito en la partida
+
+159
+00:06:26,730 --> 00:06:29,700
+tenemos también los encantamientos que
+
+160
+00:06:29,700 --> 00:06:32,880
+representan efectos mágicos persistentes
+
+161
+00:06:32,880 --> 00:06:35,430
+que perduran a lo largo del tiempo y por
+
+162
+00:06:35,430 --> 00:06:37,470
+último también tenemos
+
+163
+00:06:37,470 --> 00:06:39,590
+a los polémicos place walker que son
+
+164
+00:06:39,590 --> 00:06:42,390
+magos poderosos que aparecen en la
+
+165
+00:06:42,390 --> 00:06:45,180
+historia de ambientación de magic estos
+
+166
+00:06:45,180 --> 00:06:47,130
+cuatro tipos de cartas junto a las
+
+167
+00:06:47,130 --> 00:06:49,710
+tierras y las fichas que es un tipo de
+
+168
+00:06:49,710 --> 00:06:52,860
+carta que ya hablaremos más adelante son
+
+169
+00:06:52,860 --> 00:06:56,190
+todas ellas permanentes ya que cuando
+
+170
+00:06:56,190 --> 00:06:58,560
+los lanzas en la mesa se quedan
+
+171
+00:06:58,560 --> 00:07:01,050
+permanentemente hasta que te las
+
+172
+00:07:01,050 --> 00:07:03,600
+destruyan o te las maten o se acabe la
+
+173
+00:07:03,600 --> 00:07:05,640
+partida y tengas que recoger no vaya a
+
+174
+00:07:05,640 --> 00:07:07,290
+ser que te dejes ahí en la mesa pero
+
+175
+00:07:07,290 --> 00:07:09,030
+como veis se han currado mucho para
+
+176
+00:07:09,030 --> 00:07:10,650
+clasificar este tipo de cartas
+
+177
+00:07:10,650 --> 00:07:13,710
+permanecen en la mesa permanentes les ha
+
+178
+00:07:13,710 --> 00:07:16,320
+estallado la cabeza pero también existen
+
+179
+00:07:16,320 --> 00:07:18,270
+cartas que no permanecen en el campo de
+
+180
+00:07:18,270 --> 00:07:20,520
+batalla como puede ser el caso de los
+
+181
+00:07:20,520 --> 00:07:23,910
+conjuros y de los instantáneos que son
+
+182
+00:07:23,910 --> 00:07:27,270
+cartas que cuando las juegas les haces
+
+183
+00:07:27,270 --> 00:07:31,200
+el efecto que pone ella directamente van
+
+184
+00:07:31,200 --> 00:07:34,360
+a la pila de descarte
+
+185
+00:07:34,360 --> 00:07:37,060
+en magic este afilado de descarte es
+
+186
+00:07:37,060 --> 00:07:39,550
+llamada cementerio por ejemplo nosotros
+
+187
+00:07:39,550 --> 00:07:42,099
+en nuestro turno jugamos una podredumbre
+
+188
+00:07:42,099 --> 00:07:44,560
+mental que es un conjuro negro que nos
+
+189
+00:07:44,560 --> 00:07:46,930
+cuesta un punto de maná negro y dos
+
+190
+00:07:46,930 --> 00:07:48,819
+puntos de más adicionales que podemos
+
+191
+00:07:48,819 --> 00:07:51,039
+pagar con maná de cualquier color y
+
+192
+00:07:51,039 --> 00:07:53,560
+elegimos a un jugador objetivo en este
+
+193
+00:07:53,560 --> 00:07:55,750
+caso nuestro oponente nuestro oponente
+
+194
+00:07:55,750 --> 00:07:59,110
+deberá descartarse de dos cartas de su
+
+195
+00:07:59,110 --> 00:08:02,710
+mano y enviarlas a su cementerio y una
+
+196
+00:08:02,710 --> 00:08:05,020
+vez que nuestro oponente haya hecho eso
+
+197
+00:08:05,020 --> 00:08:07,689
+nosotros descartaremos la podredumbre
+
+198
+00:08:07,689 --> 00:08:10,000
+mental y la mandaremos a nuestro
+
+199
+00:08:10,000 --> 00:08:13,120
+cementerio y ahora al fin ya conocemos
+
+200
+00:08:13,120 --> 00:08:16,240
+lo más básico y elemental para empezar a
+
+201
+00:08:16,240 --> 00:08:18,759
+ver cómo es un tú 9 magic y cómo es una
+
+202
+00:08:18,759 --> 00:08:21,969
+partida en magic eso sí lo veremos en el
+
+203
+00:08:21,969 --> 00:08:24,669
+siguiente vídeo mejor aquí abajo en la
+
+204
+00:08:24,669 --> 00:08:26,409
+descripción del vídeo y en la caja de
+
+205
+00:08:26,409 --> 00:08:28,569
+comentarios te dejaré algún que otro
+
+206
+00:08:28,569 --> 00:08:30,279
+vídeo que te puede servir como
+
+207
+00:08:30,279 --> 00:08:33,399
+complemento a este recuerda que puedes
+
+208
+00:08:33,399 --> 00:08:36,339
+dejar tus dudas tus abrazos tus
+
+209
+00:08:36,339 --> 00:08:38,589
+disueltos tus inquietudes y tus vecinos
+
+210
+00:08:38,589 --> 00:08:41,110
+aquí abajo en los comentarios
+
+211
+00:08:41,110 --> 00:08:43,419
+aquí con un vídeo y espero que te guste
+
+212
+00:08:43,419 --> 00:08:45,700
+mucho y nos vemos en la siguiente chao
+
+213
+00:08:45,700 --> 00:08:47,840
+pescao
+
+214
+00:08:47,840 --> 00:08:50,840
+vamos
+
+215
+00:08:56,240 --> 00:08:59,240
+e
+

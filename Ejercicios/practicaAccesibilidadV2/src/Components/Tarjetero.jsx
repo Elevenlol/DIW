@@ -1,53 +1,89 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import Tarjeta from "./Tarjeta";
+import { useState, useEffect } from "react";
+import Tarjeta from "./Tarjeta"; // Asegúrate de importar correctamente el componente Tarjeta
+import { Container, Row, Col, Image } from "react-bootstrap"; // Importando componentes de diseño de React Bootstrap
 
-function Tarjetero() {
-  const tarjetas = [
-    {
-      srcset:
-        "../../src/assets/foto_cw2dmd_c_scale,w_480.webp 480w,../../src/assets/foto_cw2dmd_c_scale,w_657.webp 657w,../../src/assets/foto_cw2dmd_c_scale,w_794.webp 794w,../../src/assets/foto_cw2dmd_c_scale,w_962.webp 962w,../../src/assets/foto_cw2dmd_c_scale,w_1018.webp 1018w,../../src/assets/foto_cw2dmd_c_scale,w_1024.webp 1024w",
-      src: "",
-      alt: "Imagen de la pelicula",
-      name: "Kimi no na wa",
-    },
-    {
-      srcset:
-        "../../src/assets/foto_cw2dmd_c_scale,w_480.webp 480w,../../src/assets/foto_cw2dmd_c_scale,w_657.webp 657w,../../src/assets/foto_cw2dmd_c_scale,w_794.webp 794w,../../src/assets/foto_cw2dmd_c_scale,w_962.webp 962w,../../src/assets/foto_cw2dmd_c_scale,w_1018.webp 1018w,../../src/assets/foto_cw2dmd_c_scale,w_1024.webp 1024w",
-      src: "",
-      alt: "Imagen de la pelicula",
-      name: "Shigatsu wa kimi no uso",
-    },
-    {
-      srcset:
-        "../../src/assets/foto_cw2dmd_c_scale,w_480.webp 480w,../../src/assets/foto_cw2dmd_c_scale,w_657.webp 657w,../../src/assets/foto_cw2dmd_c_scale,w_794.webp 794w,../../src/assets/foto_cw2dmd_c_scale,w_962.webp 962w,../../src/assets/foto_cw2dmd_c_scale,w_1018.webp 1018w,../../src/assets/foto_cw2dmd_c_scale,w_1024.webp 1024w",
-      src: "",
-      alt: "Imagen de la pelicula",
-      name: "Sword art online",
-    },
-    {
-      srcset:
-        "../../src/assets/foto_cw2dmd_c_scale,w_480.webp 480w,../../src/assets/foto_cw2dmd_c_scale,w_657.webp 657w,../../src/assets/foto_cw2dmd_c_scale,w_794.webp 794w,../../src/assets/foto_cw2dmd_c_scale,w_962.webp 962w,../../src/assets/foto_cw2dmd_c_scale,w_1018.webp 1018w,../../src/assets/foto_cw2dmd_c_scale,w_1024.webp 1024w",
-      src: "",
-      alt: "Imagen de la pelicula",
-      name: "Popeye",
-    },
-  ];
+const Tarjetero = ({ setCode }) => {
+  const [cartas, setCartas] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [hasSearched, setHasSearched] = useState(false);
+
+  useEffect(() => {
+    const fetchCartas = async () => {
+      setIsLoading(true);
+      try {
+        const response = await fetch(
+          `https://api.scryfall.com/cards/search?q=set:${setCode}`
+        );
+        if (!response.ok) {
+          throw new Error(
+            `Error al buscar cartas para el set ${setCode}: respuesta no válida de la API`
+          );
+        }
+        const data = await response.json();
+        setTimeout(() => {
+          setCartas(data.data);
+          setIsLoading(false);
+          setHasSearched(true);
+        }, 3000);
+      } catch (error) {
+        console.error("Error al buscar cartas:", error.message);
+        setIsLoading(false);
+      }
+    };
+    if (setCode) {
+      fetchCartas();
+    }
+  }, [setCode]);
+
   return (
-    <>
-      <Row>
-        {tarjetas.map((tarjeta) => (
-          <Col key={tarjeta.name} sm={12} md={6} lg={3}>
-            <Tarjeta
-              srcset={tarjeta.srcset}
-              src={tarjeta.src}
-              alt={tarjeta.alt}
-              name={tarjeta.name}
-            ></Tarjeta>
-          </Col>
-        ))}
-      </Row>
-    </>
+    <Container id="tarjetero">
+      {isLoading ? (
+        <div className="loading-container">
+          <img src="../../src/assets/loading.gif" alt="Cargando..." />
+        </div>
+      ) : hasSearched ? (
+        <Row>
+          {cartas.map((carta) => (
+            <Col key={carta.id} sm={12} md={6} xl={4}>
+              <Tarjeta carta={carta} />
+            </Col>
+          ))}
+        </Row>
+      ) : (
+        <>
+          <section className="container" id="fotoPortada">
+            <Image
+              className="fotoInicio"
+              srcSet="
+              ../../src/assets/imagenFondo_cvi1wq_c_scale,w_440.webp 440w,
+              ../../src/assets/imagenFondo_cvi1wq_c_scale,w_723.webp 723w,
+              ../../src/assets/imagenFondo_cvi1wq_c_scale,w_1037.webp 1037w,
+              ../../src/assets/imagenFondo_cvi1wq_c_scale,w_1330.webp 1330w,
+              ../../src/assets/imagenFondo_cvi1wq_c_scale,w_1387.webp 1387w"
+              src="../../src/assets/imagenFondo_cvi1wq_c_scale,w_1387.webp"
+              alt="Imagen de las proximas colaboraciones de Magic"
+              fluid
+            ></Image>
+          </section>
+          <section>
+            <p id="historico">
+              Magic: The Gathering (MTG) es mucho más que un juego de cartas
+              coleccionables; es un fenómeno cultural que ha definido y
+              transformado el género desde su creación en 1993. Concebido por
+              Richard Garfield, un profesor de matemáticas con una pasión por
+              los juegos, MTG se lanzó bajo el auspicio de Wizards of the Coast,
+              una entonces pequeña editorial de juegos que posteriormente se
+              convertiría en una gigante de la industria. Lo que distingue a MTG
+              no es solo su complejidad estratégica y la profundidad de su
+              universo, sino también su innovador modelo de negocio y la forma
+              en que fomenta tanto la colección como la comunidad entre sus
+              jugadores.
+            </p>
+          </section>
+        </>
+      )}
+    </Container>
   );
-}
+};
+
 export default Tarjetero;
