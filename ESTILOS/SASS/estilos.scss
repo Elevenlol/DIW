@@ -1,2 +1,10 @@
 @import "../BOOTSTRAP/node_modules/bootstrap/scss/bootstrap.scss";
+@import "colores";
 @import "navbar";
+@import "footer";
+@import "card";
+
+*{
+    margin: 0;
+    padding: 0;
+}

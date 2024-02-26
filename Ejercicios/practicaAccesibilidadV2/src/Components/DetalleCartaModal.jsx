@@ -11,7 +11,6 @@ const DetalleCartaModal = ({ show, onHide, carta }) => {
         <p>Edición: {carta.set}</p>
         <p>Número: {carta.collector_number}</p>
         <Image src={carta.image_uris?.normal} fluid />
-        {/* Añade más información según necesites */}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>

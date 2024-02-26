@@ -1,24 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../ESTILOS/CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Apuntes Tema01</title>
 </head>
 
 <body>
-    <h1>Presentacion</h1>
-    <!-- Prototipo-->
-    <!-- Layout web-->
-    <!-- Figma-->
-    
-    <a
-        href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#35">
-        Apuntes</a>
-        <a
-        href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#35">
-        Apuntes</a>
+    <nav class="navbar navbar-expand-lg custom-navbar text-center">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="../../ESTILOS/recursos/logo.png" href="index.html"
+                alt="Logo de la pagina"></img>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-light me-3" href="../../index.html">
+                            Pagina Principal
+                        </a>
+                    </li>
+                    <div class="btn-group">
+                        <a class="btn btn-light" href="../../Apuntes/indexApuntes.html">
+                            Indice Apuntes
+                        </a>
+                        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Apuntes</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="../../Apuntes/Tema01/Apuntes01.html">Tema01 -
+                                    Planificacion interfaz de
+                                    usuario</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../Apuntes/Tema02/Apuntes02.html">Tema02 - Uso de
+                                    estilos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../Apuntes/Tema03/Apuntes03.html">Tema03 - Inserción
+                                    de contenido
+                                    multimedia</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="../../Apuntes/Tema04/Apuntes04.html">Tema04 -
+                                    Accesibilidad y usabilidad
+                                    web</a>
+                            </li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="btn btn-light ms-3" href="../../Ejercicios/indexEjercicios.html">
+                                Indice Ejercicios
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <section style="margin-bottom:100px ;">
+            <article class="container text-center">
+                <div class="container-fluid d-flex flex-row" id="cardApunte">
+                    <img src="../../ESTILOS/recursos/Semantico.png" alt="Imagen sobre el layout correcto de una web"
+                        class="img-fluid rounded-start mt-2 mb-2">
+                    <aside>
+                        <h3>HTML Semantico</h3>
+                        <p>Es el uso de las etiquetas HTML para reforzar la semántica, o el significado, de la
+                            información en las páginas web</p>
+                        <h3>Bibliografia</h3>
+                        <div class="d-flex flex-column">
+                            <a href="https://es.wikipedia.org/wiki/HTML_sem%C3%A1ntico">Enlace 1</a>
+                            <a href="https://es.semrush.com/blog/html-semantico/">Enlace 2</a>
+                        </div>
+                    </aside>
+                </div>
+                <div class="container-fluid d-flex flex-row" id="cardApunte">
+                    <img src="../../ESTILOS/recursos/Layout.gif" alt="Imagen sobre el layout basico de una web"
+                        class="img-fluid rounded-start mt-2 mb-2">
+                    <aside>
+                        <h3>Layouts</h3>
+                        <p>Es el uso de diferentes estructuras y organización de los elementos html para conseguir el
+                            aspecto deseado</p>
+                        <h3>Bibliografia</h3>
+                        <div class="d-flex flex-column">
+                            <a href="https://www.w3schools.com/html/html_layout.asp">Enlace 1</a>
+                            <a href="https://www.geeksforgeeks.org/html-layout/">Enlace 2</a>
+                            <a
+                                href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#9">Enlace
+                                3</a>
+                        </div>
+                    </aside>
+                </div>
+                <div class="container-fluid d-flex flex-row" id="cardApunte">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/GoetheFarbkreis.jpg/330px-GoetheFarbkreis.jpg"
+                        alt="Imagen sobre el layout basico de una web" class="img-fluid rounded-start mt-2 mb-2">
+                    <aside>
+                        <h3>Teoria del color</h3>
+                        <p>La teoría del color es una propuesta por el químico y filósofo alemán Wilhelm Ostwald. Consta
+                            de cuatro sensaciones cromáticas elementales (amarillo, rojo, azul y verde) y dos
+                            sensaciones acromáticas intermedias.</p>
+                        <h3>Bibliografia</h3>
+                        <div class="d-flex flex-column">
+                            <a href="https://es.wikipedia.org/wiki/Teor%C3%ADa_del_colorp">Enlace 1</a>
+                            <a
+                                href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#17">Enlace
+                                2</a>
+                            <a
+                                href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#9">Enlace
+                                3</a>
+                        </div>
+                    </aside>
+                </div>
+                <div class="container-fluid d-flex flex-row" id="cardApunte">
+                    <img src="https://www.ipp.edu.pe/blog/wp-content/uploads/2020/10/fuentes-tipograficas.jpg"
+                        alt="Imagen sobre el layout basico de una web" class="img-fluid rounded-start mt-2 mb-2">
+                    <aside>
+                        <h3>Tipografía</h3>
+                        <p>El texto es la base de la mayoría de los website.</p>
+                        <p>No usar más de 3 tipografías</p>
+                        <p>Interlineado de 1,5 puntos</p>
+                        <p>No abusar del subrayado</p>
+                        <p>Nunca escribir todo en mayúsculas</p>
+                        <p>Espacios entre parrafos ayudan a descansar la mirada</p>
+                        <h3>Bibliografia</h3>
+                        <div class="d-flex flex-column">
+                            <a
+                                href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#23">Enlace
+                                1</a>
+                        </div>
+                    </aside>
+                </div>
+                <div class="container-fluid d-flex flex-row" id="cardApunte">
+                    <img src="https://www.dobleclic.com/wp-content/uploads/bocetos-dise%C3%B1o-web-6.jpg"
+                        alt="Imagen sobre el layout basico de una web" class="img-fluid rounded-start mt-2 mb-2">
+                    <aside>
+                        <h3>Prototipado</h3>
+                        <p>Dibujos o diseños de las diferentes páginas y secciones que van a componer un sitio web</p>
+                        <h3>Bibliografia</h3>
+                        <div class="d-flex flex-column">
+                            <a
+                                href="https://www.canva.com/design/DAF0Oi5qhk4/UaaUBHNQHpui0FtFhh8oVQ/view?utm_content=DAF0Oi5qhk4&utm_campaign=designshare&utm_medium=link&utm_source=editor#28">Enlace
+                                1</a>
+                        </div>
+                    </aside>
+                </div>
+
+            </article>
+        </section>
+
+    </main>
+    <footer class="footer mt-3 py-3 container-fluid row justify-content-between">
+        <div class="col-md-3 d-flex align-items-center justify-content-center flex-column ">
+            <p class="mb-0">Ian Martin Bayo</p>
+            <a href="https://www.linkedin.com/in/ian-martin-bayo-294b51226/" target="_blank" style="text-decoration: none;">
+                Linkedin
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+            <p class="mb-0">2º DAW Diseño de interfaces web</p>
+        </div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+            <p class="mb-0">2024</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

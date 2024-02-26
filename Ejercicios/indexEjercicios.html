@@ -1,46 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-    }
+  <link rel="stylesheet" href="../ESTILOS/CSS/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    ol {
-      padding: 20px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: #0275d8;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>Pagina Principal</title>
 </head>
 
 <body>
-  <ol>
-    <li><a href="./Tarea1/Tarea1.html">Tarea 1(Mala)</a></li>
-    <li><a href="./Tarea1/Mi pagina Personal.html">Tarea 1 (Buena)</a></li>
-    <li><a href="./FigmaToHtml/inicio.html">Figma To Html</a></li>
-    <li><a href="./Practica1 SASS/index.html">Practica 1 SASS</a></li>
-    <li><a href="./Examen Bootstrap+SASS/index.html">Examen SASS</a></li>
-    <li><a href="./practicaAccesibilidadV2/dist/index.html">Practica Accesibiliad</a></li>
-  </ol>
+  <nav class="navbar navbar-expand-lg custom-navbar text-center">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="../ESTILOS/recursos/logo.png" href="index.html" alt="Logo de la pagina"></img>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="btn btn-light ms-3" href="../index.html">
+              Pagina Principal
+            </a>
+          </li>
+          <div class="btn-group">
+            <a class="btn btn-light ms-3" href="../Apuntes/indexApuntes.html">
+              Indice Apuntes
+            </a>
+            <button type="button" class="btn  btn-light dropdown-toggle dropdown-toggle-split "
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Apuntes</span>
+            </button>
+            <ul class="dropdown-menu ">
+              <li>
+                <a class="dropdown-item" href="Tema01/Apuntes01.html">Tema01 - Planificacion interfaz de
+                  usuario</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="Tema02/Apuntes02.html">Tema02 - Uso de estilos</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="Tema03/Apuntes03.html">Tema03 - Inserción de contenido
+                  multimedia</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="Tema04/Apuntes04.html">Tema04 - Accesibilidad y usabilidad
+                  web</a>
+              </li>
+            </ul>
+            <li class="nav-item">
+              <a class="btn btn-light ms-3" href="indexEjercicios.html">
+                Indice Ejercicios
+              </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container mt-4">
+    <section class="row container align-items-center justify-content-center">
+      <article class="card mb-3 me-3 col-md-6" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../ESTILOS/recursos/tarea.webp" class="img-fluid rounded-start mt-2"
+              alt="Imagen sobre la planificación de la interfaz de usuario">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tarea 01 - "Portfolio Creativo"</h5>
+              <p class="card-text">Diseñar una guía de estilos y un prototipo en FIGMA </p>
+              <p class="card-text"><a class="btn btn-primary" href="https://www.figma.com/file/p44Fk0RTGsmiuYW1Wp5p1g/Practica-0-Figma?type=design&mode=design&t=WaQmMhcOK8trtS6V-1">Ver más</a></p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card mb-3 me-3 col-md-6" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../ESTILOS/recursos/tarea.webp" class="img-fluid rounded-start mt-2"
+              alt="Imagen sobre el uso de estilos en las páginas web">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tarea02 - Diseño y Desarrollo de una Página Web para un Restaurante</h5>
+              <p class="card-text">Desarrollo de un prototipo con figma y paginas web mediante HTML,CSS y SASS</p>
+              <p class="card-text">
+                <a class="btn btn-primary" href="https://www.figma.com/file/aGSa37YYr5yMgazIjM79LE/Practica-1-SASS?type=design&mode=design&t=WaQmMhcOK8trtS6V-1">Ver Figma</a>
+                <a class="btn btn-success" href="./Practica1 SASS/index.html">Ver Practica</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="row mt-4 container align-items-center justify-content-center">
+      <section class="card mb-3 col-md-6 me-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../ESTILOS/recursos/tarea.webp" class="img-fluid rounded-start mt-2"
+              alt="Imagen sobre Inserción de contenido multimedia">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tarea03 - Desarrollo de pagina web con Bootstrap y SASS</h5>
+              <p class="card-text">Replicar la pagina web suministrada utilizando elementos de Bootstrap y SASS</p>
+              <a class="btn btn-primary" href="https://tacopo.github.io/examenBootstrap2324/index.html">Ver original</a>
+              <a class="btn btn-success" href="./Examen Bootstrap+SASS/index.html">Ver Practica</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card mb-3 col-md-6 me-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../ESTILOS/recursos/Tema4.webp" class="img-fluid rounded-start mt-2" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tarea04 - Accesibilidad y usabilidad web</h5>
+              <p class="card-text">Practica relacionada con la accesibilidad y la usabilidad web. Mezclada con la funcionalidad necesaria para recuperar datos de Apis Externas</p>
+              <p class="card-text"><a class="btn btn-primary" href="https://github.com/Elevenlol/DIW/tree/92c8d582729eca8ccd5da88969313fb157c2b374/Ejercicios/practicaAccesibilidadV2">Ver más</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+  </main>
+
+  <footer class="footer mt-3 py-3 container-fluid row justify-content-between">
+    <div class="col-md-3 d-flex align-items-center justify-content-center flex-column ">
+      <p class="mb-0">Ian Martin Bayo</p>
+      <a href="https://www.linkedin.com/in/ian-martin-bayo-294b51226/" target="_blank" style="text-decoration: none;">
+        Linkedin
+        <i class="fab fa-linkedin"></i>
+    </a>
+    </div>
+    <div class="col-md-3 d-flex align-items-center justify-content-center">
+      <p class="mb-0">2º DAW Diseño de interfaces web</p>
+    </div>
+    <div class="col-md-3 d-flex align-items-center justify-content-center">
+      <p class="mb-0">2024</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

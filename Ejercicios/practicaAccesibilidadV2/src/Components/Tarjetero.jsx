@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Tarjeta from "./Tarjeta"; // Asegúrate de importar correctamente el componente Tarjeta
-import { Container, Row, Col, Image } from "react-bootstrap"; // Importando componentes de diseño de React Bootstrap
+import Tarjeta from "./Tarjeta"; 
+import { Container, Row, Col, Image } from "react-bootstrap"; 
 
 const Tarjetero = ({ setCode }) => {
   const [cartas, setCartas] = useState([]);
