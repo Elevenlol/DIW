@@ -11897,7 +11897,7 @@ footer p {
 
 @media screen and (max-width: 500px) {
   #cardApunte {
-    display: flex;
+    display: flex !important;
     flex-direction: column !important;
   }
 }
