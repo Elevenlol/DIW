@@ -2,9 +2,11 @@ footer {
   background-color: $colorFooter !important;
   text-align: center;
   color: $colorBlanco !important;
-  position: fixed !important;
+  position: relative !important;
+  width: 100vw !important;
+  overflow-x: hidden;
   bottom: 0;
-  p{
+  p {
     width: 30% !important;
   }
 }

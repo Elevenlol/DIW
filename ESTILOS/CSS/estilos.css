@@ -11856,21 +11856,25 @@ textarea.form-control-lg {
   }
 }
 .custom-navbar {
-  background-color: #333 !important;
+  background-color: #424242 !important;
 }
 .custom-navbar .navbar-brand {
   max-height: 100px;
-  color: #fff;
-}
-.custom-navbar .navbar-brand:hover {
-  color: #ccc;
 }
 
+@media screen and (max-width: 768px) {
+  .custom-navbar {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
 footer {
-  background-color: #333 !important;
+  background-color: #424242 !important;
   text-align: center;
   color: #fff !important;
-  position: fixed !important;
+  position: relative !important;
+  width: 100vw !important;
+  overflow-x: hidden;
   bottom: 0;
 }
 footer p {
@@ -11891,9 +11895,19 @@ footer p {
   width: 400px;
 }
 
+@media screen and (max-width: 500px) {
+  #cardApunte {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
+}
+
+.contenedorPrincipal {
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

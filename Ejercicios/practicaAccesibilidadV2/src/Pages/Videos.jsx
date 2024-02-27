@@ -6,7 +6,7 @@ function Videos() {
       <h1>Videos sobre como jugar a Magic the Gathering</h1>
       <main className="videos">
         <section className="seccionVideo" id="uno">
-          <video controls id="video" poster="../../src/assets/mini1.webp">
+          <video controls poster="../../src/assets/mini1.webp">
             <source
               src="../../src/assets/Video_Jugar_MTG.mp4"
               type="video/mp4"
@@ -60,7 +60,7 @@ function Videos() {
             cartas, MTG ofrece a los jugadores la oportunidad de explorar nuevas
             tácticas y enfrentarse a desafíos renovados.
           </p>
-          <video controls id="video" poster="../../src/assets/mini2.webp">
+          <video controls poster="../../src/assets/mini2.webp">
             <source
               src="../../src/assets/Video_Jugar_MTG2.mp4"
               type="video/mp4"

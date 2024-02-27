@@ -2,9 +2,11 @@
   background-color: $colorFooter !important;
   .navbar-brand {
     max-height: 100px;
-    color: #fff;
-    &:hover {
-      color: #ccc;
-    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .custom-navbar {
+    display: flex !important;
+    flex-direction: column !important;
   }
 }
